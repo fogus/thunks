@@ -1,0 +1,108 @@
+-*- mode: org -*-
+
+* core.async
+
+- [[https://clojure.org/news/2013/06/28/clojure-clore-async-channels][original announcement]]
+- [[https://github.com/clojure/core.async][Github repo]]
+
+** Videos
+
+I skipped around a bit in my video watching but if were to create a "curriculum" for video watching around core.async then I'd probably recommend the following in the order presented.
+
+*** The Language of the System
+
+/[[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/LanguageSystem.md][transcript]]/
+
+Rich used this talk to discuss how system concerns differ from language concerns and how we can talk about the former in a way that informs that latter (and vice versa). The talk operates at a high-level but a lot of the insights are directly applicable to the more granular topic of core.async.
+
+An interesting part of the talk was the table below describing the stacks-view of language-concerns and system-concerns:
+
+| Program               | System                  |
+|-----------------------+-------------------------|
+| Application libs      | Application as services |
+| Runtime and core libs | ???                     |
+| Language primitives   | Protocols and formats   |
+
+He works through the process of filling in the hole in the table and eventually lands on "Simple services" so that the table changes to:
+
+| Program               | System                  |
+|-----------------------+-------------------------|
+| Application libs      | Application as services |
+| Runtime and core libs | Simple services         |
+| Language primitives   | Protocols and formats   |
+
+Like most programming languages Clojure has a bevy of libraries created by the core team and the greater community. Also like most languages Clojure's ecosystem is bereft of open "Simple systems". Where Clojure differs from many languages is that its core ideas scale to the level of the system and so there should be many more systems available in the ecosystem that build on the ideas inherent in Clojure.
+
+A nice companion talk to watch after this one is Joe Armstrong's /[[https://www.youtube.com/watch?v=lKXe3HUG2l4][The Mess We're In]]/ that expands on some of the key ideas in his thesis entitled /[[https://github.com/fogus/papers-i-love/blob/master/distributed_systems/Armstrong-Distributed_Systems_in_the_Presence_of_Software_Errors.pdf][Making reliable distributed systems in the presence of software errors]]/ -- a highly-recommended read. Additionally, there's still a problem around system-level constructs analogous to interfaces and for that there may be some insights in an old book by Dr. Hans Freudenthal entitled /Lincos: Design of a Language for Cosmic Intercourse, Part 1/ -- I leave an implementation as an exercise for the reader.
+
+*** Clojure core.async
+
+/[[https://github.com/matthiasn/talk-transcripts/blob/master/Hickey_Rich/CoreAsync.md][transcript]]/
+
+Rich gives the intro talk about the core.async library that flows (ha!) nicely from /The Language of the System/. However, the lesson in the talk is reversed such that we can use the insights in constructing systems to now inform our programs. The "processes conveying values via queues" model is an extremely powerful one and indeed scalable down to our programs as well. But how? (hint: not events and callbacks)
+
+**** Enter core.async
+
+On June 28, 2013 Rich [[https://clojure.org/news/2013/06/28/clojure-clore-async-channels][announced the core.async library]] to much fanfare. The rationale is a nice encapsulation of much of the talk but the punchline is:
+
+#+BEGIN_QUOTE
+The objectives of core.async are:
+
+- To provide facilities for independent threads of activity, communicating via queue-like channels
+- To support both real threads and shared use of thread pools (in any combination), as well as ClojureScript on JS engines
+- To build upon the work done on CSP and its derivatives
+#+END_QUOTE
+
+The basic focus of the talk are channels as described in Tony Hoare's seminal paper /[[https://github.com/fogus/papers-i-love/blob/master/systems_modeling/Hoare-Communicating_Sequential_Processes.pdf][Communicating Sequential Processes]]/. Queues are like channels in that they decouple producers and consumers, are first-class, and are durable. The library allows you to create independent processes living in either real threads or abstracted in IOC state-machines communicating via channels. In both cases code is written in a linear fashion and channels allows the programmer to reason about it as such. In the talk Rich mentions that the use of channels provides a mode of state called "flow-state" that stands in contrast to "place-state" in that flow-state passes values to and from channels without concern for who put it nor who took it. This mode makes reasoning about your code much simpler because it allows you to focus on processes at the edges without concern for both sides of an interaction.
+
+There's a lot of nuance in this talk that I still need to process but for those of you already further down that path you can watch a follow-on talk by Tim Baldridge that looks at core.async more practically entitled /[[https://www.youtube.com/watch?v=096pIlA3GDo][core.async in Use]]/.
+
+*** Inside core.async Channels
+
+I recently came across a core.async ticket that required a healthy understanding of the internals of core.async and it made me realize that while I have used the library to solve very pointed problems, my deeper understanding was sorely lacking. This talk digs deeper into the implementation details behind core.async and may not be generally useful for devs but it's definitely interesting anyway.
+
+**** Channels
+
+Channels are composed of two queues containing pending operations called *puts* and *takes*. Channel semantics state that a process waits for a take if it puts and and a process waits for a put if it takes. Therefore, this simple semantic implies a lot of logic around where data resides in *puts* and *takes* and the *buffer* in-between (if present). Data in the *puts* and *takes* and *buffer* imply different behaviors for writers and readers:
+
+| has writer? | has reader? | which queue? | action                       |
+|-------------+-------------+--------------+------------------------------|
+| yes         | no          | *puts*       | writer waits for reader      |
+| yes         | no          | *buffer*     | writer is done               |
+| yes         | yes         | *takes*      | writer done, reader proceeds |
+| no          | yes         | *buffer*     | reader proceeds              |
+| no          | yes         | *takes*      | reader waits for writer      |
+| yes         | yes         | *buffer*     | writer done, reader proceeds |
+
+It accomplishes this behavior via a channel mutex used by ~take!~ and ~put!~ -- no globals mutexes used. Rich provides a much better view of the table above framing it in terms of what happens in ~take!~ and ~put!~ scenarios internal to the channel.
+
+**** Handlers
+
+Rich goes through a whole discussion about how handlers back the implementation of ~alt!~ and rather than summarizing it here it's better to recommend to watch that segment carefully.
+
+**** ~!!~ operations
+
+The ~!!~ versions of the core.async API center around the use of ~thread~ and operate as follows:
+
+- A promise is created and delivered by callbacks
+- If a non-nil value comes from the callback then we know that is the actual result
+- else on ~nil~ the promise is ~derefed~, which blocks until it resolves
+
+**** ~!~ operations
+
+The parking operations operate via callback also, but the callback is a state-machine built by the ~go~ macro.
+
+** Books
+
+- /Concepts, Techniques, and Models of Computer Programming/ by Peter van Roy and Seif Haridi - a mammoth book centered around the Oz programming language that describes in detail its support for data-flow programming which is another model for declarative concurrency.
+
+** Libraries
+
+- [[https://github.com/clj-commons/manifold][Manifold]] - Zach Tellman - in the Clojure commons but not actively maintained AFAICT
+
+** Needed
+*** More libraries around observing channels
+*** More libraries providing different buffer policies
+*** More simple services adhering to a Clojure-like model
+*** Lower-level go-like primitives in the Clojure compiler that something like go blacks can build on
+
