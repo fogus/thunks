@@ -1,0 +1,23 @@
+-*- mode: org -*-
+
+* cassette futurism
+
+[[https://aesthetics.fandom.com/wiki/Cassette_Futurism][a retrofuturistic aesthetic]] that came onto my radar recently but that seems to follow a pattern of modern thought that has grown in recent times.
+
+related topics that i've followed to varying degrees as as follows.
+
+** black birror
+** cyberdecks
+** glass bead game
+** hauntology
+** icehouse
+** lost futures
+** retrocomputing
+** retrofuturism
+** scarfolk
+** the new aesthetic
+** further
+
+there is a sub-genre of science fiction hiding in here... what could have been for the modern programmer:
+
+LISPM Futurism -- a sub-genre of sci-fi predicated on a past where LISP and John McCarthy's ideas drove the computing industry from the 1950s to the present.
