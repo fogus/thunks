@@ -6,7 +6,7 @@
 
 related topics that i've followed to varying degrees as as follows.
 
-** black birror
+** black mirror
 ** cyberdecks
 ** glass bead game
 ** hauntology
@@ -21,3 +21,28 @@ related topics that i've followed to varying degrees as as follows.
 there is a sub-genre of science fiction hiding in here... what could have been for the modern programmer:
 
 LISPM Futurism -- a sub-genre of sci-fi predicated on a past where LISP and John McCarthy's ideas drove the computing industry from the 1950s to the present.
+
+*** What exists now that would also exist under LISPM Futurism?
+
+Listed below, likely any LISPMF manifestation would be different, but the spirit would likely still be there.
+
+**** Single-board computers
+**** Common Lisp
+**** Datomic
+**** Emacs
+**** Genera / Mezzano
+**** VLSI
+**** iRobot
+**** scsh
+
+*** What disappeared but would have prospered under LISPM Futurism?
+
+**** Lisp Machines
+**** Lisp Processors
+
+https://dspace.mit.edu/bitstream/handle/1721.1/5731/AIM-514.pdf
+
+**** MCL
+**** Nokolisp
+
+
