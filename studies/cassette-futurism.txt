@@ -20,7 +20,35 @@ related topics that i've followed to varying degrees as as follows.
 
 there is a sub-genre of science fiction hiding in here... what could have been for the modern programmer:
 
-LISPM Futurism -- a sub-genre of sci-fi predicated on a past where LISP and John McCarthy's ideas drove the computing industry from the 1950s to the present.
+** LISPM Futurism 
+
+a sub-genre of sci-fi predicated on a past where LISP and John McCarthy's ideas drove the computing industry from the 1950s to the present.
+
+*** Core
+
+| Year | Source                   | Author    | Description                                                         |
+|------+--------------------------+-----------+---------------------------------------------------------------------|
+| 1958 | [[https://github.com/fogus/papers-i-love/blob/master/artificial_intelligence/McCarthy-Programs_With_Common_Sense.pdf][Common Sense]]             | McCarthy  |                                                                     |
+| 1960 | [[https://github.com/fogus/papers-i-love/blob/master/comp_sci_fundamentals_and_history/McCarthy-Recursive_Functions_of_Symbolic_Expressions_and_Their_Computation_by_Machine_Part_1.pdf][Recursive Functions...]]   | McCarthy  | LISP                                                                |
+| 1962 | [[https://github.com/fogus/papers-i-love/blob/master/languages/lisp/McCarthy-LISP_15_Programmers_Manual.pdf][LISP 1.5]]                 | McCarthy  | Half-pager                                                          |
+| 1963 | [[https://github.com/fogus/papers-i-love/blob/master/languages/lisp/Hart-MACRO_Definitions_for_LISP.pdf][MACRO Definitions...]]     | Hart      | Macros                                                              |
+| 1963 | [[https://github.com/fogus/papers-i-love/blob/master/artificial_intelligence/McCarthy-Situations_Actions_and_Causal_Laws.pdf][Situations]]               | McCarthy  | Advice Taker, situations, fluents, pseudo-time repplaces semaphores |
+| 1963 | [[https://github.com/fogus/papers-i-love/blob/master/mathematics/McCarthy-A_Basis_for_a_Mathematical_Theory_of_Computation.pdf][Math Basis...]]            | McCarthy  |                                                                     |
+| 1969 | [[https://github.com/fogus/papers-i-love/blob/master/artificial_intelligence/Hewitt-PLANNER.pdf][PLANNER]]                  | Hewitt    | Logic programming                                                   |
+| 1974 | [[https://github.com/fogus/papers-i-love/blob/master/artificial_intelligence/Minsky-Framework_for_Representing_Knowledge.pdf][Representing Knowledge]]   | Minsky    | Frames                                                              |
+| 1990 | [[https://github.com/fogus/papers-i-love/blob/master/games/McCarthy-Chess_as_the_Drosophila_of_AI.pdf][Chess as Dropsophalia...]] | McCarthy  | Programming fruit flies                                             |
+|      | MORE?                    |           |                                                                     |
+|      |                          | Licklider | M/C Sym, Intergalactic, etc.                                        |
+|      |                          | Engelbart |                                                                     |
+|      |                          | Forgie    |                                                                     |
+|      |                          | Newell    |                                                                     |
+|      |                          | Hewitt    | ACTOR                                                               |
+|      | Scheme...                |           |                                                                     |
+|      | Ctrl Structs             | Fisher    |                                                                     |
+|      |                          | Schorre   |                                                                     |
+|      |                          | Hoare     | CSP, Axiomatic...                                                   |
+|      | LISPMs                   |           |                                                                     |
+|      |                          |           | L@@k Stoyan histories                                               |
 
 *** What exists now that would also exist under LISPM Futurism?
 
@@ -35,8 +63,7 @@ Listed below, likely any LISPMF manifestation would be different, but the spirit
 **** iRobot
 **** scsh
 
-*** What disappeared but would have prospered under LISPM Futurism?
-
+*** What disappeared but may have prospered under LISPM Futurism?
 **** Lisp Machines
 **** Lisp Processors
 
