@@ -1,0 +1,430 @@
+#+TITLE: The Lich, Long Buried...
+#+AUTHOR: fogus
+
+-*- mode: org -*-
+
+* The Lich, long buried...
+
+Max was a weird kid. In addition to being quite smart and presenting himself beyond his years, he was surprisingly wired into the Zeitgeist for a teenager. You see, his family was quite well to do and so he had access to sources of information that kids our age (pre-ubiquitous-Internet) just didn’t see. Max was a voracious devourer of information and as a result knew a lot about, well, a lot. Coupled with this fact is that Max’s father was some high-power lawyer who traveled hither and thither and before each trip max would demand his father stop here or there and grab this or that.
+
+Another fact about Max is that he ALWAYS got what he wanted.
+
+So one day Max learned about Magic: The Gathering very very early on and asked his father to get his some cards during one of his west coast lawyering trips and amazingly his father returned with a literal pile of treasure — four Alpha starter decks and a small pile of Alpha booster packs.
+
+Every few days in the summer me, Frank, and John would meet at Max’s house to play Dungeons and Dragons and at the time that we discovered MtG I was starting a new 
+campaign. Before one of our sessions Max dug out the haul that his father brought home and we proceeded to open the entire lot. I didn’t know anything about the 
+game at the time, but I was immediately drawn to the artwork. Indeed, I can vividly remember using the Lich card as a visual aid during the gaming session that we proceeded to play into the night.
+
+#+CAPTION: Love at first sight.
+[[../../images/mtg/cards/lich.jpg]]
+
+Our start with MtG was slow  to develop, but Max and John took time to learn the game one day and later taught me and Frank.
+
+We hated the game at first.
+
+Of course, we first played with the starter decks and because they contained a hodge-podge of miscellaneous cards we found that it was hard to cast the cards that we wanted and wound up discarding all the time. We even tried mixing in the contents of the booster packs, but I suspect now that our deck-building skills were not up to the task. Eventually, we decided on what now seemed like an obvious decision — each one of us would get all of the cards of a single color and play only with those. The color distribution fit nicely with the personalities and characters of our D&D group, specifically:
+
+- I was the GM, running a world held hostage by the living dead — BLACK
+- Max was the wizard of the group — BLUE
+- John was the Ranger — GREEN
+- Frank was the Barbarian — RED
+
+We didn’t have a Cleric in our group so no one used white, but because we were short a few lands we used left-over Plains to fill in the gaps as proxies for the lands running our deck. I was the only player to use Plains for white cards, as I’ll show later.
+
+After building our mono-colored decks we found the game to be so much better. Indeed, in addition to allowing us to avoid the problem of randomized decks, the cards in our colors seemed to allow us to play out the stories of our existing world and the characters populating it. Interestingly, the components of the decks also fed back into the D&D campaign itself, motivating story arcs and campaign denizens. However, over time we found that some house rules played to the personalities of our group and provided constraints for play and deck construction:
+
+- No color-hate cards (e.g. Gloom, Flashfires, Lifeforce, Tsunami)
+- No “evil” cards (e.g. Mana Short, Mind Twist, Smoke)
+- “Soft-ante”
+
+** No “evil”
+
+The notion of what made for an “evil” card was highly subjective, but we were often democratic about voting for the exclusion of any given card.
+
+#+CAPTION: No Tsu for you!
+[[../../images/mtg/cards/tsunami.jpg]]
+
+There must’ve been more, but a few that I remember explicitly were:
+
+- [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=113][Mana Short]] — cutting down the ability to cast anything was evil [fn:mana-short]
+- [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=71][Mind Twist]] — cutting a hand down to nothing was evil [fn:mind-twist]
+- [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=223][Smoke]] — preventing maximum attack carnage was evil
+
+** Soft-ante
+
+Back in the early days of MtG, the game was played for keeps. Indeed, the official rules discussed starting the game with an Ante - or a single card revealed from the top of your library. The play who won the game took both cards in Ante and kept them… forever.
+
+[[../../images/mtg/cards/demonicattorney.jpg]]
+
+Playing for Ante added a sense of danger to any match and really upped the tension level if you knew that you might lose a key card. In addition to starting with a couple of cards in Ante, there were a few cards in the early sets that allowed a player to manipulate the cards revealed at the start. In fact, through the lens of Ante the single most powerful card in the history of MtG is not [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=95][Ancestral Recall]] nor [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=3][Black Lotus]] but instead [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=52][Contract from Below]].
+
+#+CAPTION: Eat your heart out Ancestral!
+[[../../images/mtg/cards/contract.jpg]]
+
+For a single black mana a player could draw eight cards, adding the first to the current ante. While you ran the risk of losing more cards to Ante, Magis is such that drawing seven new cards for such a small cost was often an unsurmountable advantage. It was great in the early days because although the game was relatively simple by today's standard, Ante added depth by providing another resource that the players could manipulate, thus adding a layer of tactical play to this already fascinating game. The only downside - you lost cards forever - and that kinda sucks.
+
+*** Enter Soft Ante
+
+Due to the dynamics of my early play groups, Ante as described in the rulebooks didn't really work. First, all of the cards that we had at our disposal were owned by a single person. Second, we all played differently mono-colored decks, so wining a card was almost always useless except to perhaps hamper a future opponent. Finally, we tended to house-rule away the sharpest edges of the game to make for a less cut-throat experience. All of that said however we still liked the idea of Ante providing a potentially tense experience and the way that we attempted to preserve that was via Soft Ante.
+
+[[../../images/mtg/cards/darkpact.jpg]]
+
+Our sessions of MtG tended to play out over the course of a night between and supplementing role-playing games, so layers would likely get into 5–10 matches of Magic over the course of a single all night role-playing session. Therefore, we used Ante as a way to potentially weaken (and in rare cases strengthen) players' decks over the course of a session. There were tangible effects felt from losing a card to Soft Ante as our total card inventory was sparse and losing a single card might've meant losing a whole win-condition. For my own deck, turning over a Lich or a Plains to the Ante meant that I was in danger of losing out on extremely powerful effects for the next 5+ games. This was a big deal! [fn:ante]
+
+[[../../images/mtg/cards/bronzetablet.jpg]]
+
+There were games where Ante completely removed the ability for a player to ever win another game. With Soft Ante it helped to know that the devistation of a deck would only last for a single session.
+
+** Blue — Max
+
+Max’s deck was a frustrating deck to play against. It was not really a control deck even though it did use a few key control-like cards, especially counterspells and card-draw spells. While I don’t remember everything that he played a few things stuck out.
+
+*** Time Walk
+
+To this day this is the only piece of the [[https://mtg.fandom.com/wiki/Power_Nine][Power 9]] that I’ve ever touched. Max loved this card not only because of the amazing artwork but also because he LOVED to take extra turns. He was very sad when we banned his Mana Short for this reason (which effectively allowed another turn). One extra-turn spell was tolerable, but two was evil.
+
+[[../../images/mtg/cards/timewalk.jpg]]
+
+As far as I recall, [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=131][Time Walk]] was used as a blunt instrument often being cast the moment that it hit Max's hand and rarely strategically.
+
+*** Twiddle
+
+I just as you were about to attack in with that big creature, Max would tap it with [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=133][Twiddle]] before combat. This card is single-handedly the reason that I removed [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=70][Lord of the Pit]] from my deck. That is, if I had the Lord on the battlefield then I had to attack every turn or else the penalties were too stiffling.
+
+#+CAPTION: “Oh go twiddle yourself!”
+[[../../images/mtg/cards/twiddle.jpg]]
+
+*** Merfolk of the Pearl Trident
+
+Max had a few of these and we all loved the artwork. Years later I would build my first blue deck using the Revised version of this same card.
+
+#+CAPTION: Mr. Spock as we called him.
+[[../../images/mtg/cards/mopt.jpg]]
+
+There was nothing special about this card except that it was cheap and Max had a bunch of them so often dealing with them was a pain and always a lopsided exchange for the resources spent to do so.
+
+*** Water Elemental + Flight
+
+Max’s [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=139][Water Elemental]] was one of the biggest creatures that any of us had, but it wasn’t the biggest. However, it became nearly unstoppable if he was able to attach a [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=106][Flight]], of which he had many.
+
+[[../../images/mtg/cards/waterelemental.jpg]]
+
+** Red — Frank
+
+Frank’s “Barbarian deck” was the only other deck besides mine that played more than 40 cards. Frank was the kind of guy who was really drawn to Barbarian characters so it should come as no surprise that his deck consisted of every red card that Max received in his small pile of Alpha cards (minus Smoke). Frank’s deck was a total mess, but there were a few things that he loved to do:
+
+*** Earthbind
+
+Frank was the only one of us who could really handle Max’s flying elemental as he had a few copies of [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=193][Eartbind]] in his deck.
+
+#+CAPTION: “Bondage: The Gathering”
+[[../../images/mtg/cards/earthbind.jpg]]
+
+*** Fireball
+
+Frank loved this card and would Fireball as many things as he could at once. Everyone loved this image and it would frequently make an appearance whenever a mage in our games cast a fireball.
+
+[[../../images/mtg/cards/fireball.jpg]]
+
+*** Keldon Warlord
+
+This became the image of Frank’s in-campaign D&D character. He always had this card out when we were role playing and he would summon it in MtG the first chance he got every time no matter what the circumstance.
+
+[[../../images/mtg/cards/keldonwarlord.jpg]]
+
+** Green — John
+
+John’s deck was also in line with his Ranger character but I can only recall a few cards that he played, mostly because they’re cards that I also liked later on, even though I've generally disliked green in my playing life.
+
+*** Craw Wurm + Giant Growth
+
+This was also one of the biggest creatures in our games and John loved to use it to end the game with a boost from [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=153][Giant Growth]].
+
+[[../../images/mtg/cards/crawwurm.jpg]]
+
+*** Grizzly Bear
+
+I remember that John’s Ranger in our campaign had a bear for a familiar, but I really remember this fluffy dude because another friend had a deck with dozens of [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=155][Grizzly Bears]] of various printings from Alpha up to Fourth Edition.
+
+[[../../images/mtg/cards/grizzly.jpg]]
+
+*** Fungusaur
+
+I don’t think we realized at the time how awesome this creature was. Later on I discovered that this could be pumped up using [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=76][Pestilence]] and built a deck around that interaction. That was probably my first truly effective combo -- though it was still a terrible deck and I quickly jumped to something else.
+
+[[../../images/mtg/cards/fungusaur.jpg]]
+
+** The Lich Deck, v 1.0
+
+I already mentioned that Lich was among the first cards that we opened and I immediately fell in love with its artwork. It wasn’t until learning the game and putting it into a deck that I fell in love with it all over again. At the heart of my D&D campaign of the time (spoiler alert) was a Lich who was pulling the strings controlling the campaign world. As a result, I built the deck around similar themes as in my campaign. Aside from Frank’s deck, mine was the only other deck that played more than 40 cards, of which I played 42. A few key cards were as follows.
+
+*** Lich
+
+I loved the flavor of this card. I loved the artwork of course, but what I loved most was that it was one of the few cards in MtG that was purely thematic. That is, this is not a creature card. Instead, this is a card that turns you, the player, into a Lich and allows you to break the rules so to speak and play a different game than the other players. This was my first exposure to “rule breaking” cards and I would forever have a love affair with other cards of its ilk.
+
+[[../../images/mtg/cards/lich.jpg]]
+
+That said, the card was very fragile and if anyone ever had a way to destroy it or remove it from play then I would instantly lose the game. Fortunately, no one played with the white cards [fn:plains] and so no one had the hightly effective [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=249][Disenchant]] card in their deck. In hindsight, I suppose there was a green card or two to deal with it but it was rare for me to lose the game on the destruction of the Lich.
+
+*** Black Knight
+
+The Lich in my story was a fallen knight of yore, so this card added that back story to my MtG games as well.
+
+[[../../images/mtg/cards/blackknight.jpg]]
+
+I loved the card art but it was not a very powerful creature to use and so it eventually found its way into someone else's hands via some trade or another.
+
+*** Drudge Skeletons
+
+The Lich in my campaign controlled an army of the undead and so skeletons seemed a natural fit. Game play wise, these were really hard to kill because of their ability to regenerate and I would chump-block all day with them. For a time I considered building a deck entirely of skeletons but a friend beat me to it.
+
+[[../../images/mtg/cards/skeletons.jpg]]
+
+**** A Quick Drudge Skeletons Story
+
+In my area circa 93/94 the humble Drudge Skeleton was not much played and most of the excitement and attention was paid to the big bruisers like the Shivan Dragon, Sengir Vampire, and Force of Nature. However, I knew a guy who had a thing for the Drudge boys and had built a deck containing a bunch of swamps and a bunch of Drudge Skeletons. His deck was big and chock full of nothing but Skeletons and Swamps and would grown gradually as he acquired more and more. Indeed, the two copies that I have in my Lich deck came from this guy as he purged his alpha copies once Revised came out.
+
+Despite the singular focus of the deck, it was surprisingly strong. Games against him tended to go as follows:
+
+- TURN 1: Swamp
+- TURN 2: Swamp, Skeletons
+- TURN 3: Swamp, Regenerate Skeletons
+- TURN 4: Swamp, Skeletons, Regenerate Skeletons
+- TURN 5: Swamp, Skeletons, Skeletons, Regenerate Skeletons
+- …
+- Win the game
+
+The deck was incredibly frustrating to play against as I only had one flyer and my own regenerators needed multiple pieces to get online. The deck was relentless. As a side note, the same guy had another deck loaded with forests and Grizzly Bears and while it was also surprisingly strong, the lack of regeneration made it more manageable to play against. While I have no intention of duplicating the Skeletons deck, I do remember it fondly.
+
+*** Scathe Zombies
+
+These were strictly worse than John’s Grizzly Bears but I loved the artwork and they fit thematically. I would eventually trade for more of these as I mention later.
+
+[[../../images/mtg/cards/zombies.jpg]]
+
+*** Lord of the Pit + Simulacrum
+
+This was the biggest baddest creature in any of our decks, but I lost more games trying to keep up with its downsides than I won with it. I tried to use a [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=84][Simulacrum]] to divert the damage to a Skeleton instead, but I only had one of those and the combo was too fraught to work consistently. Thematically the Lord fit perfectly as my Lich gained its arcane powers through deals with various demons. Gameplay wise and thematically I would have been better off with a [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=60][Demonic Tutor]], but I didn’t have one of those until the Revised set came out.
+
+[[../../images/mtg/cards/lotp.jpg]]
+
+I eventually traded this card straight-up for a white-bordered Chaos Orb and didn't miss it.
+
+*** Pesitlence
+
+This card bailed me out of more problems than any other card in the deck. The damage to me was usually worth destroying most of the other player’s creatures and allowing me to keep my skeletons to swing in freely. Of all of the cards in my original Lich deck, Pestilence is probably the one that I've used most often throughout the intervening years.
+
+[[../../images/mtg/cards/pestilence.jpg]]
+
+*** Frozen Shade
+
+The artwork reminded me of Tolkien’s Nazgul[fn:nazgul] which was reason enough for inclusion. Practically speaking this bad boy was often a better option than Lord of the Pit because it could be pumped up at will.
+
+[[../../images/mtg/cards/frozenshade.jpg]]
+
+While my deck was quite thematic, it turned out to not be a very good deck for wining games. But at the time I didn’t care — I had a blast playing it and telling my campaign story along the way.
+
+** The Lich Deck, v2.0
+
+After some time playing with our Alpha decks we finally started to see new sets become available in our area. Sadly, as teens we didn’t have reliable access to rides to the only place that we knew sold cards in our area. Therefore, we were always late getting to the store when new sets came out and so completely missed the boat on Beta, Unlimited, and Arabian Nights.[fn:difficult] We didn’t care too much however, because we loved our janky decks.
+
+However, just after graduating high school Max learned that his parents had decided to split up. The plan was that he would move with his mother closer to where he was planning to go to college and his father would stay behind. Just before our last D&D session together before life changed everything, Max gifted us our decks! As a result I was determined to continue playing my deck against other players who I knew from high school. However, I quickly learned that the Lich deck just couldn’t hold up against decks comprised of cards from a pool of hundreds of cards rather than one built from a few dozen, so I set about trying to make it better.
+
+The problem was that all that I had were Alpha cards, but the world of MtG had moved quickly past the original card aesthetic. Many months after we had opened the original Alpha packs numerous expansions and reprints had hit the scene and by the time I was ready to upgrade the only readily available set was Revised. Now don’t get me wrong, I LOVED Revised and I bought a ton of cards, but using them in my Lich deck was a non-starter because of the corners:
+
+#+CAPTION: The only card that I have Alpha, Beta, and Revised versions
+#+attr_html: :width 50% :height 50%
+[[../../images/mtg/cards/howls.jpg]]
+
+While I really wanted to use the new Revised cards in my deck, at the time I didn’t sleeve the cards (no one did) and the disparity in the card shapes was too blatant. Therefore, I set about trying to trade for Alpha cards to fill in my deck but as it turned out, finding Alpha cards was REALLY hard.
+
+*** BBSes to the rescue
+
+Finding Alpha cards today couldn’t be easier. With a ubiquitous Internet available at our finger tips the only limitation to finding Alpha cards is your wallet. However, back in 1994 there was no widely available Internet so even if you had limitless funds you were still limited by your local trade possibilities. Thankfully for me I was technologically wired (so to speak) and had access to a modem and a Rolodex (those were a thing back then) filled with local BBSes. In a nutshell, a BBS (Bulletin Board System) was a computer in someone’s home (usually) attached to a phone line that would allow another computer to connect to it via the phone lines. You’d call a number and BEEP BOOP BEEEEEEP you’d connect to a message board, download, games system. Using the power of my local BBSes I was able to find other players with Alpha cards for trade. Since my D&D group was defunct by then I was less drawn to the idea of maintaining thematic connections between the cards in the deck. Instead, for once I tried to get cards that simply made the deck better.
+
+So what did I get?
+
+*** Nightmare
+
+#+CAPTION: The new big-bad in the deck
+[[../../images/mtg/cards/nightmare.jpg]]
+
+Because I got slammed so much by Lord of the Pit’s upkeep cost I decided that a new game ending creature was in order. I don’t recall what I traded for it at the time, but in all likelihood it was a Revised dual land.[fn:duals] Back in 1994 there were a few Revised cards that was easy to trade, prime among them were the dual lands, Force of Nature, Shivan Dragons, and maybe Royal Assassin. If you could pull these from Revised packs then you were highly sought after as a trade partner. Even today I have a ton of Revised cards (nearly 4x of each card) but only a few remaining dual lands. In hindsight I should’ve been less cavalier about trading those duals away.
+
+That said, Nightmare is an amazing card. It’s power and toughness are equal to the number of Swamps in play and in a (nearly) mono-colored deck this was a big deal. In a game that ran long, my Nightmare routinely came into play as a 10/10+ powerhouse. I never went back to the Lord of the Pit again.
+
+*** Healing Salve
+
+#+CAPTION: A poor Lich’s Ancestral!
+[[../../images/mtg/cards/salve.jpg]]
+
+Since my deck already had couple of Plains acting as proxies for Swamps I decided to take advantage of that fact and add a [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=253][Healing Salve]] or two. In a Lich deck, a Healing Salve is (basically) equivalent to:
+
+[[../../images/mtg/cards/ancestral.jpg]]
+
+Who knows what I traded for this — probably an Alpha [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=64][Fear]], of which I had a half dozen at one time and seemed to have come in every Alpha pack that me and my group opened.
+
+*** Island Sanctuary
+
+#+CAPTION: A poor Lich’s Moat
+[[../../images/mtg/cards/islandsanctuary.jpg]]
+
+Again building on the existing Plains in the deck, I decided to put in a card that was similar in effect (in a Lich deck anyway) to:
+
+[[../../images/mtg/cards/moat.jpg]]
+
+Arabian Nights sold out in a hot second in my area, so I’ve never encountered this in the wild. One disadvantage to the Lich enchantment is that whenever I took damage I was forced to exile as many permanents that I had in play as the amount of damage that I took. However, if I could avoid taking damage at all then I could avoid that problem all together. Using a combination of Healing Salve, Drain Life, and Throne of Bone I had many ways to draw cards, so skipping the card on my draw phase to shut down ground creatures was a no-brainer.
+
+I eventually got rid of the card to get a copy of an actual [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=159308][Moat]] but for a time it was a great way to shut down all damage coming my way.
+
+*** Glasses of Urza
+
+#+CAPTION: My pet card.
+[[../../images/mtg/cards/glasses.jpg]]
+
+As a younger kid my grandparents and I played thousands and thousands of hands of Gin and regular Rummy, so a lot of my perspective on playing card games came from lessons learned in Rummy games. Framing MtG strategy in lessons of Gin, my philosophy of deck building was (and still is I suppose) built around some basic ideas.
+
+More cards == good — In Gin you’re required to discard one card and draw one card every turn, so there’s no way to get a hand of more cards. However, when drawing and discarding you always want to keep cards that provide the most flexibility in forming runs and sets. By drawing and keeping wisely you can build an effective form of card advantage. In MtG card advantage and hand flexibility is built through extra draws, hand filtering, and draw smoothing. Using life-gain in a Lich deck is the way to draw extra cards.
+
+More information == good — Gin players are always trying to count cards so they can both know what might be coming and also reason about out what’s in your hand. Gin players are notorious for trying to sneak a peak at the bottom card of the deck because even knowing that one card provides an important piece of information. Therefore, in Gin if you could just look at your opponent’s hand then you’d probably win 95–100% of the time. Allowing me to see my opponent’s hand in MtG was simply too tempting to pass up for me.
+
+Top-decking is bad — In Gin, it’s almost always better to have the option of drawing from the top of the discard pile rather than drawing blindly from the draw pile. There wasn’t a good way to get the same effect in MtG Alpha, but drawing more cards and keeping my hand full was a way to mediate this problem.
+
+*** Zombie Master + Evil Presence
+
+Since my deck already had a bunch of Scathe Zombies I wanted to get the Zombie Master to give all of them regeneration and swampwalk.
+
+[[../../images/mtg/cards/zombiemaster.jpg]]
+
+Therefore, I also had to track down an Evil Presence to turn and opponent land into a Swamp allowing me to (maybe) get through with unblockable ranks of the walking dead.
+
+[[../../images/mtg/cards/evilpresence.jpg]]
+
+In hindsight this was too fragile of a combination to work consistently but at the time it made sense to me.
+
+*** Jade Statue
+
+From the perspective of the extremely limited total set of Alpha cards, [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=24][Jade Statue]] may be one of the best creatures available to the player restricted to those cards.
+
+#+CAPTION: Beefy boi
+[[../../images/mtg/cards/jadestatue.jpg]]
+
+At the time I didn't fully appreciate how powerful this card was. Instead, I was simply looking for another wall-like creature that could block almost anything and let me assemble my Lich engine. It's only in hindsight that I realze that the statue is very hard to get rid of given the tools to remove troublesome creatures in the alpha card pool.
+
+** Changes
+
+There were other trades of course, but the details of the transactions have been lost to the dustbin of time. However, looking at the deck now I’m sure the trades were meant to get multiples of existing cards. The cards available to me in the initial pile of cards bought by Max’s father were singletons for the most part. I do recall have a couple Dark Rituals and Plague Rats, but for some reason I decided to part with for some reason or another.
+
+I eventually gave up trying to improve the Lich Deck because of two reasons: first I was big into Revised and second I was about to venture off to college and didn’t have the same amount of time to scour BBSes and arrange trades that were becoming increasingly difficult to materialize. Therefore when I left home for college I took my box of Revised and left my Lich. Over time my family went through divorces, children leaving home, illnesses, and moves and my memory of the Lich faded until I opened an unassuming black box laying in a bedroom closet.
+
+This is the deck that I found (with fresh sleeves to boot!):
+
+#+CAPTION: The Lich Deck — brought back from the dead.
+#+attr_html: :width 50% :height 50%
+[[../../images/mtg/lich-deck-main-v2.jpg]]
+
+The sideboard is basically whatever cards I wasn’t playing anymore and/or duplicates and such:
+
+#+attr_html: :width 50% :height 50%
+[[../../images/mtg/lich-deck-side-v2.jpg]]
+
+** What’s next?
+
+It’s been a blast finding this deck and reveling in the flood of memories that it triggered. Now that I’ve found this deck again I’ll never lose it again, but I might play with it and I’ll certainly try to make it even better. Certainly the costs of the cards required to make this deck better have increased exponentially so I'm once again limited not by availability but justifications. That said, just spit-balling I can see a few ways to make this a little better quickly:
+
+- Find a Will O the Wisp or two to help block fliers and smooth my mana curve
+- Maybe replace the Wall of Bone with a Forcefield
+- Get Wooden Sphere, Iron Star, and Ivory Cup to build out a real sideboard
+
+A lot has changed in my life since first discovered MtG with a small group of great friends. I don’t keep in touch with my old D&D group anymore, but I will remember them forever. As these things go, people change and grow apart and in John’s case some pass away. I’ll never experience the glee of discovery that I had in 1993 and 1994, but in this deck I may just capture a hint of those halcyon days.
+
+That’s the magic of Magic.
+
+** Epilogue: In Search of a Circle of Protection; Black
+
+I mentioned that for a time I had tried to make the biggest of the bad creatures work in the deck - Lord of the Pit.
+
+[[../../images/mtg/lord-of-the-pit.jpg]]
+
+The actual card text was amazing:
+
+- 7/7
+- Flying
+- Trample
+- Must sacrifice a creature during upkeep or suffer 7 damage (this is key)
+
+At first I had this bad boy bare in the deck and while it was fun to play and swing with on occasion, I found the card to be problematic.
+
+*** Seven damage in a Lich deck makes for bad times
+
+[[../../images/mtg/cards/lich.jpg]]
+
+A reminder about just what Lich does:
+
+- Your life total goes to zero, but you don't lose.
+- If you ever gain life points then you draw that many cards instead.
+- If you ever lose life points then you sacrifice that many cards instead.
+- If you cannot sacrifice enough cards then you lose.
+- If the Lich enchantment is destroyed then you lose.
+
+In a total card pool of a couple hundred cards such as we had in my old D&D group then something like the Lich was extremely powerful. Minimally the card was a last-ditch effort to stay alive and maybe get another turn or two before your cards in play were sacrificed away. However, with some life gain you could draw a bunch of cards and hopefully draw into something to win the game. For me, at least in the early days, that something was Lord of the Pit - and in the rare times when it hit the battlefield uncontested and with morsels to munch on it was a guaranteed game winner.
+
+However, it was a rare circumstance for the Lord to hit the battlefield under such favorable conditions. Instead, he'd hit the table, my opponent would play a something to block or tap him and I'd eventually whittle my creatures down and take big damage and sacrifice every card I had access to. My friends knew he was in my deck, so they played for him to come down. Twiddle, Regeneration, and Icy Manipulator were the bane of my existence. In all, I must've taken more damage to the Lord than I ever dealt. So I tried really hard to come to a solution.
+
+*** Simulacrum to the rescue?
+
+The first attempt at solving the Pit problem was to use Simulacrum to redirect the damage:
+
+[[../../images/mtg/cards/simulacrum.jpg]]
+
+As written the card states:
+
+- All damage done to you this turn is redirected to a creature you control
+- You suffer none of it
+- The creature can be regenerated.
+
+This was a pretty good solution since I had Drudge Skeletons and a Wall of Bone to take the hit and regenerate. The sad part was that I only had one Simulacrum and the combo of Skeleton + Lord + Simulacrum + 3 available mana was fraught, but it worked on occasion and was wholly satisfying when it did. That said, I tended to avoid casting the Lord at all.
+
+*** Better Solutions Abound
+
+After I inherited the Lich deck from Max I went on a trading rampage and determined that I could solve my problem three different ways:
+
+- More Simulacrums - deck slots that could be filled with Scathe Zombies
+- Find a Forcefield - one damage is ok…
+- Find a Circle of Protection: Black - …but zero damage is way better!
+
+Being the thematic nut that I was at that time, I thought that the COP:Black was the best possible solution.
+There's just one problem…
+
+In this age of limitless information available in your pants pocket or purse and accessible with the touch of a finger it's easy to learn of trivialities like MtG set anomalies. However, in 1994 learning that there was no such thing as a Circle of Protection: Black was not as simple.
+
+[[../../images/mtg/alpha-cop-black.png]]
+
+An artist's rendition.Instead, to learn about such things in 1994 you had to (apparently) post message thread after message thread on local BBSes, meet people in person and ask if they had one, refuse to trade for Forcefield at least twice, offer exorbitantly lopsided trades, and then eventually give up - trading for a Nightmare instead.
+
+*** Wild West
+
+The early days of MtG were like the wild west. People barely knew how to play and even when they did they didn't know all of the possibilities. On top of that, bumblers like me were flailing about trying to make the jankiest of the jank work.
+
+#+CAPTION: "Looks like a build-around to me!" - Me circa 1994, probably
+[[../../images/mtg/cards/farmstead.jpg]]
+
+There was no such thing as netdecking and the sources of information were few and far between - you were on your own (what even is a mana-curve?!). I mean for the love of Pete one of the best decks around was one filled with Rats! The weirdest part was that occasionally the jank worked miracles and the joy derived from that fact made everything else worthwhile.
+
+It was great.
+
+
+
+[fn:mana-short] Though I learned to eventually love [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=113][Mana Short]] in a Merfolk control deck. It was an important card for many years before Force of Will was printed as it was a way to lock down an opponent's mana one their end-step letting me cast a huge Braingeyser on my turn or even to cast a Lord of Atlantis on my turn for a big swing-in. Mana Short and merfolk were the cards that made me move from black to blue as my prefered color.
+
+[fn:mind-twist] [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=71][Mind Twist]] came to be an essential card for me in college when I bought into the Necro Deck frenzy. Resolving a Mind Twist or a Necropotence was effectively game-over.
+
+[fn:ante] During my rediscovery of MtG over the past few years I've come across numerous formats attempting to relieve those grand early years of the game. From [[http://oldschool-mtg.blogspot.com/p/banrestriction.html][93/94]], to [[https://www.eternalcentral.com/oldschool/][Eternal Weekend]], to [[https://www.eternalcentral.com/tag/alpha-40/][Alpha40]], to [[http://northernpaladins.com/r40/][Revised40]], to [[https://www.eternalcentral.com/95rules/][Old School 95]], to [[https://premodernmagic.com][Premodern]], the Ante rule and its cards are banned from play. However, I believe that instituting Soft Ante for some tournament or another in these formats could lead to the revival of some long-lost cards and long-forgotten tactics around using Ante as a resource. Certainly there are Ante games to be found if you look hard enough but I'm not enough of an adrenaline junky to seek them out and destroy my childhood deck.
+
+[fn:plains] Because no one used the white cards the Plains were used to fill in the missing land cards of the color needed. That's how I have my copies today.
+
+[fn:nazgul] Of course I had read Tolkien's books by the time that MtG hit the scene but my preferred series then (and now) was Ursula K. LeGuin's /Earthsea/ series.
+
+[fn:difficult] Even though we were fortunate enough to have access to (relatively) many Alpha cards, we weren't as lucky tracking down cards from later sets. Until the 3rd edition "Revised" set came out I can't recall ever coming across more booster packs than I could count on one hand. It was truly impossible to find boosters between late 1993 and mid 1994 when the Revised packs flooded the market. However, while I did buy up as many revised packs as I could when they came out, so did everyone else and therefore the supply ran dry eventually. However, that was the last time that I recall having a difficult time finding booster packs.
+
+[fn:duals] Because I was able to find a bunch of revised packs before they dried up I was fortunate enough to accumulate a modest set of [[https://mtg.fandom.com/wiki/Dual_land#Original_dual_lands][dual lands]]. These were lands that provided two types of mana. Circa 1994 these were trade-gold. If you had dual lands, [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=1318][Shivan Dragon]], or [[https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=1245][Force of Nature]] in my area then people would trade almost anything for them. 
