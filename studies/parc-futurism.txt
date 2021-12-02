@@ -1,0 +1,23 @@
+-*- mode: org -*-
+
+* Parc Futurism 
+
+a sub-genre of sci-fi predicated on a past where the ideas coming out of Zerox Parc drove the computing industry from the 1950s to the present.
+
+** Core
+
+| Year | Source                   | Author         | Description                                                           |
+|------+--------------------------+----------------+-----------------------------------------------------------------------|
+| 1960 | [[https://github.com/fogus/papers-i-love/blob/master/comp_sci_fundamentals_and_history/McCarthy-Recursive_Functions_of_Symbolic_Expressions_and_Their_Computation_by_Machine_Part_1.pdf][Recursive Functions...]]   | McCarthy       | LISP                                                                  |
+| 1962 | [[https://github.com/fogus/papers-i-love/blob/master/languages/lisp/McCarthy-LISP_15_Programmers_Manual.pdf][LISP 1.5]]                 | McCarthy       | Half-pager                                                            |
+| 1963 | [[https://github.com/fogus/papers-i-love/blob/master/artificial_intelligence/McCarthy-Situations_Actions_and_Causal_Laws.pdf][Situations]]               | McCarthy       | Advice Taker, situations, fluents, pseudo-time repplaces semaphores   |
+| 1963 | [[https://github.com/fogus/papers-i-love/blob/abdcef81db7b651089dee701dc1e7c9bd212a036/languages-theory/Schorre-META-II_A_Syntax-oriented_Compiler_Writing_Language.pdf][META-II]]                  | Schorre        | Compiler compiler                                                     |
+| 1970 | [[https://github.com/fogus/papers-i-love/blob/abdcef81db7b651089dee701dc1e7c9bd212a036/languages-theory/Fisher-Control_Structures_for_Programming_Languages.pdf][Control Structures...]]    | Fisher         | Control description language                                          |
+| 1991 | AMOP                     | Kiczales...    | Meta-object protocols                                                 |
+|      | MORE?                    |                |                                                                       |
+|      |                          | Licklider      | M/C Sym, Intergalactic, etc.                                          |
+|      |                          | Engelbart      |                                                                       |
+
+** What exists now that would also exist under Parc Futurism?
+
+** What disappeared but may have prospered under Parc Futurism?
