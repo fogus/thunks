@@ -1,0 +1,50 @@
+-*- mode: org -*-
+
+* Forth
+** Logical Elements of a Forth Environment
+
+#+NAME: high-level-arch
+#+BEGIN_SRC text
+      ┌──────────────────────────────────────────────────────────────────────┐
+      │ Workbooks and Sheets (IDE)                                           │
+      │                                                                      │
+      │ - aggregating forth dictionaries as outlines                         │
+      │                                                                      │
+      │                                                                      │
+      ├──────────────────────────────────────────────────────────────────────┤
+      │ Compiler                                                             │
+      │                                                                      │
+      │ - new word creation from text                                        │
+      │                                                                      │
+      │                                                                      │
+      ├──────────────────────────────────────────────────────────────────────┤
+      │ Interpreter                                                          │
+      │                                                                      │
+      │ - text interpretation                                                │
+      │                                                                      │
+      │                                                                      │
+      ├──────────────────────────────────────────────────────────────────────┤
+      │ Device Access                                                        │
+      │                                                                      │
+      │ - display and keyboard                                               │
+      │                                                                      │
+      │ - disk access (sheets r/w)                                           │
+      ├──────────────────────────────────────────────────────────────────────┤
+      │ Kernel                                                               │
+      │                                                                      │
+      │ - run-time word definition and compilation                           │
+      │                                                                      │
+      │ - inner interpreter (address interpreter)                            │
+      │                                                                      │
+      │ - hardware access                                                    │
+┌─────┴──────────────────────────────────────────────────────────────────────┴────┐
+│ Hardware                                                                        │
+│                                                                                 │
+│ - J1-like                                                                       │
+│                                                                                 │
+│ - Pi / Arduino                                                                  │
+│                                                                                 │
+│ - VM (KVVL)                                                                     │
+└─────────────────────────────────────────────────────────────────────────────────┘
+#+END_SRC
+
