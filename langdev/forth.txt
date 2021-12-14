@@ -6,6 +6,12 @@
 #+NAME: high-level-arch
 #+BEGIN_SRC text
       ┌──────────────────────────────────────────────────────────────────────┐
+      │ Libraries                                                            │
+      │                                                                      │
+      │ - OO, Logic, Device-specific routines, text manipulation             │
+      │                                                                      │
+      │                                                                      │
+      ├──────────────────────────────────────────────────────────────────────┤
       │ Workbooks and Sheets (IDE)                                           │
       │                                                                      │
       │ - aggregating forth dictionaries as outlines                         │
@@ -48,3 +54,6 @@
 └─────────────────────────────────────────────────────────────────────────────────┘
 #+END_SRC
 
+** KRBAG
+** KVVL
+** References
