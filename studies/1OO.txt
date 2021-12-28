@@ -1,0 +1,48 @@
+-*- mode: org -*-
+
+* 1OO
+
+Idea: Read 100 books on OOP and see how many unconventional ideas I can reap from them. I’ve read so many OO books in my time I feel like there are no more surprises to be found. I want to be wrong. There are of course numerous OO books that I've read and found inspiring and that had great ideas inside:
+
+| Title                                                          | Author(s)                      | Categories  | Interesting Idea(s)   |
+|----------------------------------------------------------------+--------------------------------+-------------+-----------------------|
+| CLIPS User’s Guide                                             | Giarratano                     | Rules, COOL | OO + production rules |
+| Design Patterns: Elements of Reusable Object-Oriented Software | GoF                            | Patterns    | Design Patterns       |
+| Object-Oriented Programming: An Evolutionary Approach          | Cox                            | ObjC        | Pre-compilation of C  |
+| Object-Oriented Software Construction                          | Meyer                          | Eiffel, DbC | Contracts             |
+| Smalltalk Best Practice Patterns                               | Kent                           | Smalltalk   | OO best practices     |
+| Smalltalk-80: The Language and its Implementation              | Goldberg, Robson               | Smalltalk   | Smalltalk impl.       |
+| The Art of the Metaobject Protocol                             | Kiczales, des Rivieres, Bobrow | Lisp, MOP   | Closette MOP          |
+
+I've read many more OO books in my time but if I wanted to read 100 more, then those that I might pick are found in the next section. If a book that might fit isn't listed then I [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=oriented][may]] have [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=java][already]] read [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=c%2B%2B][it]] in [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][the]] past. However, I'm happy to take recommendations if you have them.
+
+** The next 100
+
+What I'm looking for:
+
+- Books that I haven't already read
+- Books with pre-OO and/or proto-OO ideas
+- Books with non-mainstream OO techniques
+
+This is a living list.
+
+| Title                                                                                    | Read | Author(s) | Categories        | Link(s) | Interesting Idea(s) |
+|------------------------------------------------------------------------------------------+------+-----------+-------------------+---------+---------------------|
+| An Introduction to Programming in Simula                                                 |      |           | Simula            |         |                     |
+| CLU Reference Manual                                                                     |      |           | CLU               |         |                     |
+| Concurrent Programming ERLANG                                                            |      |           | Erlang            |         |                     |
+| Design by Contract: By Example                                                           |      |           | DbC               |         |                     |
+| Dynamic Web Development with Seaside                                                     |      |           | Smalltalk, Webdev |         |                     |
+| E in a Walnut                                                                            |      |           | E                 | [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][free]]    |                     |
+| Generative Programming: Methods, Tools, and Applications                                 |      |           | C++               |         |                     |
+| Growing Object-Oriented Software, Guided by Tests                                        |      |           | TDD               |         |                     |
+| JavaScript Spessore                                                                      |      | Raganwald | JS, Proto, MOP    |         |                     |
+| Modeling Reactive Systems with Statecharts: The STATEMATE Approach                       |      |           |                   |         |                     |
+| Programming Lua                                                                          |      |           | Lua, Proto        |         |                     |
+| Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer     | Eiffel, DbC       |         |                     |
+| Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |           | E                 |         |                     |
+| Smalltalk by Example: the Developer's Guide                                              |      |           | Smalltalk         |         |                     |
+| String and List Processing in SNOBOL4: Techniques and Applications                       |      |           | SNOBOL            |         |                     |
+| The Art and Science of Smalltalk                                                         |      |           | Smalltalk         |         |                     |
+| Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer     | Eiffel, DbC       |         |                     |
+| https://en.wikipedia.org/wiki/Composition_filters                                        |      |           |                   |         |                     |
