@@ -26,23 +26,28 @@ What I'm looking for:
 
 This is a living list.
 
-| Title                                                                                    | Read | Author(s) | Categories        | Link(s) | Interesting Idea(s) |
-|------------------------------------------------------------------------------------------+------+-----------+-------------------+---------+---------------------|
-| An Introduction to Programming in Simula                                                 |      |           | Simula            |         |                     |
-| CLU Reference Manual                                                                     |      |           | CLU               |         |                     |
-| Concurrent Programming ERLANG                                                            |      |           | Erlang            |         |                     |
-| Design by Contract: By Example                                                           |      |           | DbC               |         |                     |
-| Dynamic Web Development with Seaside                                                     |      |           | Smalltalk, Webdev |         |                     |
-| E in a Walnut                                                                            |      |           | E                 | [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][free]]    |                     |
-| Generative Programming: Methods, Tools, and Applications                                 |      |           | C++               |         |                     |
-| Growing Object-Oriented Software, Guided by Tests                                        |      |           | TDD               |         |                     |
-| JavaScript Spessore                                                                      |      | Raganwald | JS, Proto, MOP    |         |                     |
-| Modeling Reactive Systems with Statecharts: The STATEMATE Approach                       |      |           |                   |         |                     |
-| Programming Lua                                                                          |      |           | Lua, Proto        |         |                     |
-| Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer     | Eiffel, DbC       |         |                     |
-| Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |           | E                 |         |                     |
-| Smalltalk by Example: the Developer's Guide                                              |      |           | Smalltalk         |         |                     |
-| String and List Processing in SNOBOL4: Techniques and Applications                       |      |           | SNOBOL            |         |                     |
-| The Art and Science of Smalltalk                                                         |      |           | Smalltalk         |         |                     |
-| Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer     | Eiffel, DbC       |         |                     |
-| https://en.wikipedia.org/wiki/Composition_filters                                        |      |           |                   |         |                     |
+| Title                                                                                    | Read | Author(s) | Categories        | Link(s) | Interesting Idea(s)          |
+|------------------------------------------------------------------------------------------+------+-----------+-------------------+---------+------------------------------|
+| An Introduction to Programming in Simula                                                 |      |           | Simula            |         |                              |
+| CLU Reference Manual                                                                     |      |           | CLU               |         |                              |
+| Concurrent Programming ERLANG                                                            |      |           | Erlang            |         |                              |
+| Design by Contract: By Example                                                           |      |           | DbC               |         |                              |
+| Dynamic Web Development with Seaside                                                     |      |           | Smalltalk, Webdev |         |                              |
+| E in a Walnut                                                                            |      |           | E                 | [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][free]]    |                              |
+| Efficient Polymorphic Calls                                                              |      | Driesen   | OO Impl           |         |                              |
+| Generative Programming: Methods, Tools, and Applications                                 |      |           | C++               |         |                              |
+| Growing Object-Oriented Software, Guided by Tests                                        |      |           | TDD               |         |                              |
+| Interpretation of Object-Oriented Programming Languages                                  |      | Craig     | OO Impl           |         |                              |
+| JavaScript Spessore                                                                      |      | Raganwald | JS, Proto, MOP    |         |                              |
+| Modeling Reactive Systems with Statecharts: The STATEMATE Approach                       |      |           |                   |         |                              |
+| Programming Lua                                                                          |      |           | Lua, Proto        |         |                              |
+| Programming for the Newton: Software Development With Newtonscript                       |      | McKeehan  |                   |         | L@@k http://newtonscript.org |
+| Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer     | Eiffel, DbC       |         |                              |
+| Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |           | E                 |         |                              |
+| Smalltalk by Example: the Developer's Guide                                              |      |           | Smalltalk         |         |                              |
+| String and List Processing in SNOBOL4: Techniques and Applications                       |      |           | SNOBOL            |         |                              |
+| Taligent's Guide to Designing Programs: Well-Mannered Object-Oriented Design in C++      |      | Taligent  |                   | [[https://root.cern/TaligentDocs/TaligentOnline/DocumentRoot/1.0/Docs/books/WM/WM_3.html][free]]    |                              |
+| The Art and Science of Smalltalk                                                         |      |           | Smalltalk         |         |                              |
+| Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer     | Eiffel, DbC       |         |                              |
+| https://en.wikipedia.org/wiki/Composition_filters                                        |      |           |                   |         |                              |
+
