@@ -51,3 +51,16 @@ This is a living list.
 | Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer     | Eiffel, DbC       |         |                              |
 | https://en.wikipedia.org/wiki/Composition_filters                                        |      |           |                   |         |                              |
 
+
+** OO Books Not Written (Yet)
+
+Interface-Driven Design
+Value Objects
+Pure Prototypal Programming
+Pseudo-OO in C with structs and function pointers
+OO Osdev
+Advanced Io programming 
+Building an interactive OO programming environment from scratch
+The Joy of Logtalk (https://logtalk.org/manuals/userman/declarative.html…)
+SOM
+Clojure Protocols in Depth
