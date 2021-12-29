@@ -24,43 +24,58 @@ What I'm looking for:
 - Books with pre-OO and/or proto-OO ideas
 - Books with non-mainstream OO techniques
 
-This is a living list.
+This is a living list. Books in italics are must-reads (for me).
 
-| Title                                                                                    | Read | Author(s) | Categories        | Link(s) | Interesting Idea(s)          |
-|------------------------------------------------------------------------------------------+------+-----------+-------------------+---------+------------------------------|
-| An Introduction to Programming in Simula                                                 |      |           | Simula            |         |                              |
-| CLU Reference Manual                                                                     |      |           | CLU               |         |                              |
-| Concurrent Programming ERLANG                                                            |      |           | Erlang            |         |                              |
-| Design by Contract: By Example                                                           |      |           | DbC               |         |                              |
-| Dynamic Web Development with Seaside                                                     |      |           | Smalltalk, Webdev |         |                              |
-| E in a Walnut                                                                            |      |           | E                 | [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][free]]    |                              |
-| Efficient Polymorphic Calls                                                              |      | Driesen   | OO Impl           |         |                              |
-| Generative Programming: Methods, Tools, and Applications                                 |      |           | C++               |         |                              |
-| Growing Object-Oriented Software, Guided by Tests                                        |      |           | TDD               |         |                              |
-| Interpretation of Object-Oriented Programming Languages                                  |      | Craig     | OO Impl           |         |                              |
-| JavaScript Spessore                                                                      |      | Raganwald | JS, Proto, MOP    |         |                              |
-| Modeling Reactive Systems with Statecharts: The STATEMATE Approach                       |      |           |                   |         |                              |
-| Programming Lua                                                                          |      |           | Lua, Proto        |         |                              |
-| Programming for the Newton: Software Development With Newtonscript                       |      | McKeehan  |                   |         | L@@k http://newtonscript.org |
-| Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer     | Eiffel, DbC       |         |                              |
-| Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |           | E                 |         |                              |
-| Smalltalk by Example: the Developer's Guide                                              |      |           | Smalltalk         |         |                              |
-| String and List Processing in SNOBOL4: Techniques and Applications                       |      |           | SNOBOL            |         |                              |
-| Taligent's Guide to Designing Programs: Well-Mannered Object-Oriented Design in C++      |      | Taligent  |                   | [[https://root.cern/TaligentDocs/TaligentOnline/DocumentRoot/1.0/Docs/books/WM/WM_3.html][free]]    |                              |
-| The Art and Science of Smalltalk                                                         |      |           | Smalltalk         |         |                              |
-| Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer     | Eiffel, DbC       |         |                              |
-| https://en.wikipedia.org/wiki/Composition_filters                                        |      |           |                   |         |                              |
+| Title                                                                                    | Read | Author(s)   | Categories        | Link(s) | Interesting Idea(s)                                   |
+|------------------------------------------------------------------------------------------+------+-------------+-------------------+---------+-------------------------------------------------------|
+| /A Little Java, a Few Patterns/                                                          |      | Felleisen   | Java              |         | Unconventional OO                                     |
+| An Introduction to Programming in Simula                                                 |      |             | Simula            |         |                                                       |
+| /CLU Reference Manual/                                                                   |      |             | CLU               |         |                                                       |
+| Concurrent Programming ERLANG                                                            |      |             | Erlang            |         |                                                       |
+| Design by Contract: By Example                                                           |      |             | DbC               |         |                                                       |
+| Designing Object-Oriented Software                                                       |      | Wirfs-Brock |                   |         |                                                       |
+| /Dynamic Web Development with Seaside/                                                   |      |             | Smalltalk, Webdev |         |                                                       |
+| E in a Walnut                                                                            |      |             | E                 | [[https://www.goodreads.com/review/list/266149-michael?utf8=✓&search%5Bquery%5D=smalltalk][free]]    |                                                       |
+| /Efficient Polymorphic Calls/                                                            |      | Driesen     | OO Impl           |         |                                                       |
+| Elegant Objects                                                                          |      | Bugayenko   |                   |         |                                                       |
+| Generative Programming: Methods, Tools, and Applications                                 |      |             | C++               |         |                                                       |
+| Growing Object-Oriented Software, Guided by Tests                                        |      |             | TDD               |         |                                                       |
+| /Interpretation of Object-Oriented Programming Languages/                                |      | Craig       | OO Impl           |         |                                                       |
+| /JavaScript Spessore/                                                                    |      | Raganwald   | JS, Proto, MOP    |         |                                                       |
+| Modeling Reactive Systems with Statecharts: The STATEMATE Approach                       |      |             |                   |         |                                                       |
+| Naked Objects                                                                            |      | Pawson      |                   | [[http://downloads.nakedobjects.net/resources/Pawson%20thesis.pdf][free]]    |                                                       |
+| Object Oriented Perl                                                                     |      | Conway      | Perl              |         |                                                       |
+| Object-Oriented Thought Process                                                          |      | Weisfeld    |                   |         |                                                       |
+| Object Thinking                                                                          |      | West        |                   |         |                                                       |
+| Pharo By Example                                                                         |      |             |                   |         | L@@k http://books.pharo.org/updated-pharo-by-example/ |
+| /Programming Lua/                                                                        |      |             | Lua, Proto        |         |                                                       |
+| Programming for the Newton: Software Development With Newtonscript                       |      | McKeehan    |                   |         | L@@k http://newtonscript.org                          |
+| Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer       | Eiffel, DbC       |         |                                                       |
+| Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |             | E                 |         |                                                       |
+| Smalltalk by Example: the Developer's Guide                                              |      |             | Smalltalk         |         |                                                       |
+| Smalltalk, Objects, and Design                                                           |      | Liu         |                   |         |                                                       |
+| String and List Processing in SNOBOL4: Techniques and Applications                       |      |             | SNOBOL            |         |                                                       |
+| Taligent's Guide to Designing Programs: Well-Mannered Object-Oriented Design in C++      |      | Taligent    |                   | [[https://root.cern/TaligentDocs/TaligentOnline/DocumentRoot/1.0/Docs/books/WM/WM_3.html][free]]    |                                                       |
+| /The Art and Science of Smalltalk/                                                       |      |             | Smalltalk         |         |                                                       |
+| Touch Of Class Learning To Program Well With Objects And Contracts                       |      | Meyer       | Eiffel, DbC       |         |                                                       |
+| Understanding CLOS                                                                       |      | Lawless     |                   |         |                                                       |
+| https://en.wikipedia.org/wiki/Composition_filters                                        |      |             |                   |         |                                                       |
 
+Sometimes money considerations will come into play. That is, I'm probably not going to drop $50 on a single book for this experiment and on the other hand if I find a gaggle of OO books at the thrift store or at the library then I'll grab those as well.
 
 ** OO Books Not Written (Yet)
 
-Interface-Driven Design
-Value Objects
-Pure Prototypal Programming
-Pseudo-OO in C with structs and function pointers
-OO Osdev
-Advanced Io programming 
-Building an interactive OO programming environment from scratch
-The Joy of Logtalk (https://logtalk.org/manuals/userman/declarative.html…)
-SOM
-Clojure Protocols in Depth
+These are the books that I think are missing from the OO landscape.
+
+| Working Title                                                   | Synopsis                                     | Something Close Perhaps                              |
+|-----------------------------------------------------------------+----------------------------------------------+------------------------------------------------------|
+| Advanced Io programming                                         | A book on Io                                 |                                                      |
+| Evolving an interactive OO programming environment from scratch | In the browser                               | "Interactive Programming Environments"               |
+| Clojure Protocols in Depth                                      | Clojure protocols deconstructed and best use |                                                      |
+| Interface-Driven Design                                         | Java interfaces and interface design         |                                                      |
+| OO Osdev                                                        | OSdev with C++, case studies in OOOSDev      |                                                      |
+| Pseudo-OO in C with structs and function pointers               | A common C approach but not widely covered   |                                                      |
+| Pure Prototypal Programming                                     | Self                                         |                                                      |
+| SOM Deconstructed                                               | Understanding CLOS                           |                                                      |
+| The Joy of Logtalk                                              | Objects + Prolog                             | https://logtalk.org/manuals/userman/declarative.html |
+| Value Objects                                                   | Immutable objects                            |                                                      |
