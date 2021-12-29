@@ -1,0 +1,33 @@
+-*- mode: org -*-
+
+* Projects 2022
+
+I try to [[http://blog.fogus.me/2015/11/04/the-100101-method-my-approach-to-open-source/][juggle multiple projects at once]]. They tend to exist in varying stages of completion and I try to make some progress as time goes on. The projects that I have planned for 2022 are as follows:
+
+| Project             | Progress        | Link(s) | Synopsis                                        |
+|---------------------+-----------------+---------+-------------------------------------------------|
+| game.pacwars        | old code        |         | Knuth's pac mites in Java, with CLJ integration |
+| info.gbg            | idea            |         | Glass Bead Game design                          |
+| info.lispm-futurism | general outline |         | LISPM Futurism                                  |
+| lang.fojure         | outline         |         | CLJ-like, interpreted, GC, C++                  |
+| lang.forth          | basic impl      |         | Forth with IDE and VM                           |
+| lang.joy            | idea            |         | Adopt and curate a Joy implementation           |
+| lang.ma             | prototype       |         | OOP + rules as state management control         |
+| lang.unit-scheme    | basic impl      |         | Scheme with unit of measure                     |
+| lib.match           | first cut       |         | Pattern matching for Clojure                    |
+| logic.ukanren       | first cut       |         | Microkanren for Clojure                         |
+| system.compulator   | idea            |         | Compulator                                      |
+| text.immacs         | idea            |         | Text editor, suing C++, in an immutable style   |
+
+** game.pacwars
+** info.gbg
+** info.lispm-futurism
+** lang.fojure
+** lang.forth
+** lang.joy
+** lang.ma
+** lang.unit-scheme
+** lib.match
+** logic.ukanren
+** system.compulator
+** text.immacs
