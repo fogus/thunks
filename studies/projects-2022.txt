@@ -9,14 +9,12 @@ The projects that I have planned for 2022 are as follows:
 | Project              | Progress        | Synopsis                                        | Immediate Goals                                                                                    |
 |----------------------+-----------------+-------------------------------------------------+----------------------------------------------------------------------------------------------------|
 | game.fairy-stockfish | idea            | Fairy Chess mods and modes                      | [ ] Grande Chess [ ] Martian Chess                                                                 |
+| game.handmade        | idea            | Build game sets by hand                         | [ ] Copa [ ] Volterra [ ] 18EU [ ] Mayan Sun [ ] Hex [ ] Marrakesh [ ] Santorini [ ] No Dice       |
 | game.pacwars         | old code        | Knuth's pac mites in Java, with CLJ integration | [ ] GUI fix [ ] CLJ integr. [ ] Thunk                                                              |
 | info.gbg             | idea            | Glass Bead Game design                          | [ ] Icehouse [ ] outline [ ] meta-research                                                         |
 | info.lispm-futurism  | general outline | LISPM Futurism                                  | [ ] refs [ ] suite research [ ] choices/forks                                                      |
 | lang.fojure          | old code        | CLJ-like, interpreted, GC, C++                  | [ ] another gc [ ] smallest repl [ ] gc flags                                                      |
 | lang.forth           | basic impl      | Forth with IDE and VM                           | [ ] IDE: file leaves [ ] KR: gen as separate files [ ] KR: rforth filegen [ ] KV: unicode complete |
-| lang.joy             | idea            | Adopt and curate a Joy implementation           | [ ] reasearch options [ ] build/test system                                                        |
-| lang.ma              | prototype       | OOP + rules as state management control         | [ ] rule/state mgmt discussion [ ] rule/state tests                                                |
-| lang.unit-scheme     | prototype       | Scheme with units of measure                    | [ ] unit reader [ ] sussman layers [ ] unit type [ ] unit table impl.                              |
 | lib.match            | first cut       | Pattern matching for Clojure                    | [ ] refactor [ ] document [ ] examples                                                             |
 | lib.reinen-vernunft  | first cut       | Thinking code for Clojure                       | [ ] version space [ ] decision tree [ ] Forbus re-read                                             |
 | logic.ukanren        | first cut       | Microkanren for Clojure                         | [ ] meta-research [ ] streams? [ ] L@@k relational prolog                                          |
@@ -24,3 +22,12 @@ The projects that I have planned for 2022 are as follows:
 | study.rpg            | idea            | Read RPG books for future design ideas          | [ ] tricks design [ ] research                                                                     |
 | system.compulator    | idea            | Compulator                                      | [ ] math functions [ ] test harness [ ] compile/test loop [ ] key matrix design [ ] fn toggle mode |
 | text.immacs          | idea            | Text editor, suing C++, in an immutable style   | [ ] header libs [ ] compile/test harness [ ] gap buffer [ ] simple version                         |
+
+** Maybes
+
+| Project          | Progress  | Synopsis                                | Immediate Goals                                                       |
+|------------------+-----------+-----------------------------------------+-----------------------------------------------------------------------|
+| lang.joy         | idea      | Adopt and curate a Joy implementation   | [ ] reasearch options [ ] build/test system                           |
+| lang.ma          | prototype | OOP + rules as state management control | [ ] rule/state mgmt discussion [ ] rule/state tests                   |
+| lang.unit-scheme | prototype | Scheme with units of measure            | [ ] unit reader [ ] sussman layers [ ] unit type [ ] unit table impl. |
+
