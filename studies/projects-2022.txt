@@ -2,32 +2,25 @@
 
 * Projects 2022
 
-I try to [[http://blog.fogus.me/2015/11/04/the-100101-method-my-approach-to-open-source/][juggle multiple projects at once]]. They tend to exist in varying stages of completion and I try to make some progress as time goes on. The projects that I have planned for 2022 are as follows:
+I try to [[http://blog.fogus.me/2015/11/04/the-100101-method-my-approach-to-open-source/][juggle multiple projects at once]]. They tend to exist in varying stages of completion and I try to make some progress as time goes on.
 
-| Project             | Progress        | Link(s) | Synopsis                                        |
-|---------------------+-----------------+---------+-------------------------------------------------|
-| game.pacwars        | old code        |         | Knuth's pac mites in Java, with CLJ integration |
-| info.gbg            | idea            |         | Glass Bead Game design                          |
-| info.lispm-futurism | general outline |         | LISPM Futurism                                  |
-| lang.fojure         | outline         |         | CLJ-like, interpreted, GC, C++                  |
-| lang.forth          | basic impl      |         | Forth with IDE and VM                           |
-| lang.joy            | idea            |         | Adopt and curate a Joy implementation           |
-| lang.ma             | prototype       |         | OOP + rules as state management control         |
-| lang.unit-scheme    | basic impl      |         | Scheme with unit of measure                     |
-| lib.match           | first cut       |         | Pattern matching for Clojure                    |
-| logic.ukanren       | first cut       |         | Microkanren for Clojure                         |
-| system.compulator   | idea            |         | Compulator                                      |
-| text.immacs         | idea            |         | Text editor, suing C++, in an immutable style   |
+The projects that I have planned for 2022 are as follows:
 
-** game.pacwars
-** info.gbg
-** info.lispm-futurism
-** lang.fojure
-** lang.forth
-** lang.joy
-** lang.ma
-** lang.unit-scheme
-** lib.match
-** logic.ukanren
-** system.compulator
-** text.immacs
+| Project              | Progress        | Synopsis                                        | Immediate Goals                                                                                    |
+|----------------------+-----------------+-------------------------------------------------+----------------------------------------------------------------------------------------------------|
+| game.fairy-stockfish | idea            | Fairy Chess mods and modes                      | [ ] Grande Chess [ ] Martian Chess                                                                 |
+| game.pacwars         | old code        | Knuth's pac mites in Java, with CLJ integration | [ ] GUI fix [ ] CLJ integr. [ ] Thunk                                                              |
+| info.gbg             | idea            | Glass Bead Game design                          | [ ] Icehouse [ ] outline [ ] meta-research                                                         |
+| info.lispm-futurism  | general outline | LISPM Futurism                                  | [ ] refs [ ] suite research [ ] choices/forks                                                      |
+| lang.fojure          | old code        | CLJ-like, interpreted, GC, C++                  | [ ] another gc [ ] smallest repl [ ] gc flags                                                      |
+| lang.forth           | basic impl      | Forth with IDE and VM                           | [ ] IDE: file leaves [ ] KR: gen as separate files [ ] KR: rforth filegen [ ] KV: unicode complete |
+| lang.joy             | idea            | Adopt and curate a Joy implementation           | [ ] reasearch options [ ] build/test system                                                        |
+| lang.ma              | prototype       | OOP + rules as state management control         | [ ] rule/state mgmt discussion [ ] rule/state tests                                                |
+| lang.unit-scheme     | prototype       | Scheme with units of measure                    | [ ] unit reader [ ] sussman layers [ ] unit type [ ] unit table impl.                              |
+| lib.match            | first cut       | Pattern matching for Clojure                    | [ ] refactor [ ] document [ ] examples                                                             |
+| lib.reinen-vernunft  | first cut       | Thinking code for Clojure                       | [ ] version space [ ] decision tree [ ] Forbus re-read                                             |
+| logic.ukanren        | first cut       | Microkanren for Clojure                         | [ ] meta-research [ ] streams? [ ] L@@k relational prolog                                          |
+| study.1OO            | idea            | Read 100 OO books                               | [ ] find non-traditional OO methods [ ] reach out for advice                                       |
+| study.rpg            | idea            | Read RPG books for future design ideas          | [ ] tricks design [ ] research                                                                     |
+| system.compulator    | idea            | Compulator                                      | [ ] math functions [ ] test harness [ ] compile/test loop [ ] key matrix design [ ] fn toggle mode |
+| text.immacs          | idea            | Text editor, suing C++, in an immutable style   | [ ] header libs [ ] compile/test harness [ ] gap buffer [ ] simple version                         |
