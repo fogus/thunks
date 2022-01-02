@@ -50,6 +50,7 @@ This is a living list. Books in italics are must-reads (for me).
 | Pharo By Example                                                                         |      |             |                   |         | L@@k http://books.pharo.org/updated-pharo-by-example/ |
 | /Programming Lua/                                                                        |      |             | Lua, Proto        |         |                                                       |
 | Programming for the Newton: Software Development With Newtonscript                       |      | McKeehan    |                   |         | L@@k http://newtonscript.org                          |
+| Restful Rails Development                                                                |      |             | Ruby, Webdev      |         |                                                       |
 | Reusable Software : The Base Object-Oriented Component Libraries                         |      | Meyer       | Eiffel, DbC       |         |                                                       |
 | Robust Composition: Towards a Unified Approach to Access Control and Concurrency Control |      |             | E                 |         |                                                       |
 | Smalltalk by Example: the Developer's Guide                                              |      |             | Smalltalk         |         |                                                       |
