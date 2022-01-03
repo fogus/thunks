@@ -12,10 +12,11 @@ The projects that I have planned for 2022 are as follows:
 | game.handmade        | idea            | Build game sets by hand                         | [ ] Copa [ ] Volterra [ ] 18EU [ ] Mayan Sun [ ] Hex [ ] Marrakesh [ ] Santorini [ ] No Dice [ ] Chess pucks |
 | game.pacwars         | old code        | Knuth's pac mites in Java, with CLJ integration | [ ] GUI fix [ ] CLJ integr. [ ] Thunk                                                                        |
 | info.gbg             | idea            | Glass Bead Game design                          | [ ] Icehouse [ ] outline [ ] meta-research                                                                   |
-| info.lang-genealogy  | wip             | Language history graphs                         | [ ] dot generator from EDN source (L@@k http://www.complang.tuwien.ac.at/forth/family-tree/)                 |
+| info.lang-genealogy  | wip             | Language history graphs                         | [ ] dot generator from EDN source (L@@k http://www.complang.tuwien.ac.at/forth/family-tree/) [ ] Tool-ify    |
 | info.lispm-futurism  | general outline | LISPM Futurism                                  | [ ] refs [ ] suite research [ ] choices/forks                                                                |
 | lang.fojure          | old code        | CLJ-like, interpreted, GC, C++                  | [ ] another gc [ ] smallest repl [ ] gc flags                                                                |
 | lang.forth           | basic impl      | Forth with IDE and VM                           | [ ] IDE: file leaves [ ] KR: gen as separate files [ ] KR: rforth filegen [ ] KV: unicode complete           |
+| lang.tori-lisp       | first cut       | Lisp-like in JS                                 | [/] simple node server [ ] pluggable interop [ ] simple t-l server [ ] in-browser test eval console          |
 | lib.match            | first cut       | Pattern matching for Clojure                    | [ ] refactor [ ] document [ ] examples                                                                       |
 | lib.reinen-vernunft  | first cut       | Thinking code for Clojure                       | [ ] version space [ ] decision tree [ ] Forbus re-read                                                       |
 | logic.ukanren        | first cut       | Microkanren for Clojure                         | [ ] meta-research [ ] streams? [ ] L@@k relational prolog                                                    |
