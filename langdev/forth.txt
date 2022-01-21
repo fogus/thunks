@@ -54,6 +54,25 @@
 └─────────────────────────────────────────────────────────────────────────────────┘
 #+END_SRC
 
+** Kernel Forths
+
+|  # | Name                            | Creator        | Primitives                                   | Notes                                                                                                              |   |
+|----+---------------------------------+----------------+----------------------------------------------+--------------------------------------------------------------------------------------------------------------------+---|
+|  3 | 3 Instruction Forth             | Frank Sargent  | XC@ XC! XCALL                                | https://pygmy.utoh.org/3ins4th.html                                                                                |   |
+|  9 | Forth Bootstrap                 | Mark Hays      |                                              |                                                                                                                    |   |
+|  9 | Minimal Forth Machine           | Mikael Patel   | 1+ 0= NAND >R R> ! @ CALL EXIT               | https://github.com/fogus/papers-i-love/blob/master/languages/forth/Patel-Vagen_mot_en_minimal_Forth_arkitektur.pdf |   |
+| 11 | Minimal+ Forth Machine          | Mikael Patel   | 1+ 0= NAND >R R> ! @ CALL EXIT FETCH PERFORM |                                                                                                                    |   |
+| 13 | Complete Forth Minimum          | Brad Rodriguez |                                              | https://www.bradrodriguez.com/papers/moving1.htm                                                                   |   |
+| 16 | F21 instructions, minimal       | Chuck Moore    |                                              | http://www.ultratechnology.com/f21data.pdf                                                                         |   |
+| 20 | Dynamic Instruction Frequencies | Philip Koopman |                                              | https://users.ece.cmu.edu/~koopman/stack_computers/sec6_3.html                                                     |   |
+| 23 | MRForth                         | Mark Hays      |                                              | https://github.com/minmus-9/MRForth                                                                                |   |
+| 25 | MuP21 CPU instructions          | Chuck Moore    |                                              | http://www.ultratechnology.com/mup21.html                                                                          |   |
+| 29 | F21 instructions, full          | Chuck Moore    |                                              |                                                                                                                    |   |
+| 30 | eForth                          | Bill Muench    |                                              | https://web.archive.org/web/20060108104727/http://www.baymoon.com/~bimu/forth/                                     |   |
+| 36 | eForth                          | C.H. Ting      |                                              | http://forthworks.com/forth/papers/compare.pdf                                                                     |   |
+| 46 | GForth for 8086                 | GNU            |                                              |                                                                                                                    |   |
+| 58 | FORTH-83 nucleus                | Forth Inc.     |                                              | https://www.complang.tuwien.ac.at/forth/fth83std/FORTH83.TXT                                                       |   |
+
 ** KRBAG
 ** KVVL
 ** References
