@@ -4,6 +4,20 @@
 
 a sub-genre of sci-fi predicated on a past where LISP and John McCarthy's ideas drove the computing industry from the 1950s to the present.
 
+precursors to this lost-future:
+
+- Engelbart /knew/ that computers should facilitate shared-thinking and amplify user intelligence
+- Licklider /knew/ that computers could be linked at a global scale
+- Charles Keating /knew/ that a climate disaster was looming
+- Gordon Moore /knew/ that the number of transistors in a dense integrated circuit doubles about every two years.
+- Bob Barton /knew/ that machine hardware and software should be complimentary
+- Alan Turing /knew/ that a computer could simulate another computer
+- Sutherland /knew/ that programming could be expressed in terms of constraints and goals
+- John McCarthy /knew/ that internetworked computers were "information utilities"
+- John McCarthy /knew/ that computers should interact with users in commonsense terms (e.g. symbolic), take advice, and solve problems for its users and itself
+- John McCarthy /knew/ that systems should operate in terms of versions instead of ad hoc destructive operations and change should occur as atomic transactions
+- John McCarthy /knew/ that systems had to understand meaning
+
 ** Core Curriculum
 
 | Year | Source                   | Author            | Description                                                           |
