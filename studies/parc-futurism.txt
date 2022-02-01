@@ -20,4 +20,6 @@ a sub-genre of sci-fi predicated on a past where the ideas coming out of Zerox P
 
 ** What exists now that would also exist under Parc Futurism?
 
+- Squeak, Pharo, Smalltalk, Self, CLOS
+
 ** What disappeared but may have prospered under Parc Futurism?
