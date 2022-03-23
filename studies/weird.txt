@@ -1,0 +1,190 @@
+# -*- graphviz-dot -*-
+digraph G {
+    graph [fontsize=10 fontname="Verdana" compound=true];
+    node [shape=record fontsize=10 fontname="Verdana"];
+
+    subgraph cluster_dawn {
+        node [style=filled];
+        "Folklore" "Poetry" "Prose";
+	"Lesser Key of Solomon" "Book of Enoch";
+        label = "Dawn of the Weird";
+        color=blue;
+    }
+
+    subgraph cluster_pregothic {
+            node [style=filled];
+	    label = "The Dawn of Gothic";
+            color=blue;
+	    
+	    "Horace Walpole" -> wapole01;
+	    wapole01 [shape=note label="Castle of Otronto"];
+
+	    "Horace Walpole" -> "Barbauld";
+	    "Horace Walpole" -> "Aikin";
+	    "Horace Walpole" -> "Clara Reeve";
+	    "Horace Walpole" -> "Sophia Lee";
+
+	    "Horace Walpole" -> "Ann Radcliffe";
+	    "Ann Radcliffe" -> radcliffe01;
+	    radcliffe01 [shape=note label="Mysteries of Udolpho"];
+
+	    "Ann Radcliffe" -> "Charles Brockden Brown";
+	    "Charles Brockden Brown" -> cbbrown01;
+	    cbbrown01 [shape=note label="Wieland"];
+    }
+
+    subgraph cluster_gothic {
+            node [style=filled];
+	    label = "Prime Gothic";
+            color=blue;
+
+	    "Matthew Lewis" -> mglewis01;
+	    mglewis01 [shape=note label="The Monk"];
+
+	    "Matthew Lewis" -> "Charles Maturin"
+	    
+	    "Charles Maturin" -> cmaturin01;
+	    cmaturin01 [shape=note label="Melmouth the Wanderer"];
+    }
+
+    subgraph cluster_postgothic {
+            node [style=filled];
+	    label = "Post Gothic";
+            color=blue;
+	    
+	    "William Beckford" -> wbeckford01;
+	    wbeckford01 [shape=note label="Vathek"];
+
+	    "Sir Walter Scott" -> swscott01;
+	    swscott01 [shape=note label=""];
+
+	    "Washington Irving" -> wirving01;
+	    wirving01 [shape=note label="Legend of Sleepy Hollow"];
+
+	    "Thomas Moore" -> tmoore01;
+	    tmoore01 [shape=note label=""];
+
+	    "William Beckford" -> "Sir Walter Scott";
+	    "William Beckford" -> "Washington Irving";
+	    "William Beckford" -> "Thomas Moore";
+	    "William Beckford" -> "Mary Shelley";
+
+	    "Mary Shelley" -> mshelley01;
+	    mshelley01 [shape=note label="Frankenstein"];
+
+	    "Mary Shelley" -> "Edward Bulwer-Lytton";
+	    
+	    "Edward Bulwer-Lytton" -> eblytton01;
+	    eblytton01 [shape=note label="House and the Brain"];
+	    "Edward Bulwer-Lytton" -> eblytton02;
+	    eblytton02 [shape=note label="Zanoni"];
+	    "Edward Bulwer-Lytton" -> eblytton03;
+	    eblytton03 [shape=note label="A Strange Story"];
+
+	    "Edward Bulwer-Lytton" -> "Emily Bronte";
+	    
+	    "Emily Bronte" -> ebronte01;
+	    ebronte01 [shape=note label="Wuthering Heights"];
+
+	    "William Godwin" -> wgodwin01;
+	    wgodwin01 [shape=note label=""];
+
+	    "Francis Barrett" -> fbarrett01;
+	    fbarrett01 [shape=note label=""];
+
+	    "George W.M. Reynolds" -> greynolds01;
+	    greynolds01 [shape=note label=""];
+
+	    "Joseph S. Le Fanu" -> lefanu01;
+	    lefanu01 [shape=note label="Carmilla"];
+
+	    "Wilkie Collins" -> wcollins01;
+	    wcollins01 [shape=note label=""];
+	    
+	    "William Ainsworth" -> whainsworth01;
+	    whainsworth01 [shape=note label=""];
+
+	    "Charles Dickens" -> dickens01;
+	    dickens01 [shape=note label=""];
+
+	    "H.R. Haggard" -> hrhaggard01;
+	    hrhaggard01 [shape=note label=""];
+
+	    "A.C. Doyle" -> acdoyle01;
+	    acdoyle01 [shape=note label=""];	   
+
+	    "H.G. Wells" -> hgwells01;
+	    hgwells01 [shape=note label=""];	   
+
+	    "Louis Stevenson" -> lstevenson01;
+	    lstevenson01 [shape=note label=""];
+    }
+
+    subgraph cluster_spectral {
+            node [style=filled];
+	    label = "Spectral Literature";
+            color=blue;
+
+	    "E.T.A. Hoffman" -> etahoffman01;
+	    etahoffman01 [shape=note label=""];
+
+	    "E.T.A. Hoffman" -> "Wilhelm Meinhold";
+
+	    "Wilhelm Meinhold" -> wmeinhold01;
+	    wmeinhold01 [shape=note label=""];	    
+	    
+	    "Friedrich De La Motte" -> fdlmotte01;
+	    fdlmotte01 [shape=note label=""];
+
+	    "E.T.A. Hoffman" -> "Guy De Maupassant";
+	    "Friedrich De La Motte" -> "Guy De Maupassant";
+
+	    "Guy De Maupassant" -> gdmaupassant01;
+	    gdmaupassant01 [shape=note label=""];
+
+	    "Guy De Maupassant" -> "Hanns Ewers";
+
+	    "Hanns Ewers" -> hhewers01;
+	    hhewers01 [shape=note label=""];	    
+    }
+
+    subgraph cluster_poe {
+            node [style=filled];
+	    label = "The Great Poe";
+            color=blue;
+
+	    "Edgar Allen Poe" -> poe01;
+	    poe01 [shape=note label=""];
+    }
+
+    subgraph cluster_weirdusa {
+            node [style=filled];
+	    label = "Weird America";
+            color=blue;
+
+	    "Nathaniel Hawthorne";
+    }
+
+    subgraph cluster_weirdeu {
+            node [style=filled];
+	    label = "Weird Europe";
+            color=blue;
+
+	    "Oscar Wilde";
+    }   
+    
+    "Folklore" -> "Poetry" -> "Prose";
+
+    "Jane Austen" -> jausten01;
+    jausten01 [shape=note label="Northanger Abbey"];
+    radcliffe01 -> jausten01 [label = "parody"];
+
+    "Prose" -> "Horace Walpole" [ltail=cluster_dawn lhead=cluster_pregothic];
+    "Ann Radcliffe" -> "Matthew Lewis" [ltail=cluster_pregothic lhead=cluster_gothic];
+    "Charles Maturin" -> "Jane Austen" [ltail=cluster_gothic];
+    "Jane Austen" -> "William Beckford" [lhead=cluster_postgothic];
+    "Emily Bronte" -> "E.T.A. Hoffman" [ltail=cluster_postgothic lhead=cluster_spectral];
+    "E.T.A. Hoffman" -> "Edgar Allen Poe" [ltail=cluster_spectral lhead=cluster_poe];
+    "Edgar Allen Poe" -> "Nathaniel Hawthorne" [ltail=cluster_poe lhead=cluster_weirdusa];
+    "Edgar Allen Poe" -> "Oscar Wilde" [ltail=cluster_poe lhead=cluster_weirdeu];
+}
