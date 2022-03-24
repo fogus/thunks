@@ -5,26 +5,35 @@ digraph G {
 
 	subgraph cluster_dawn {
 		node [style=filled];
-		"Lesser Key of Solomon" "Book of Enoch";
 		label = "Dawn of the Weird";
 		color=blue;
 
+		"Lesser Key of Solomon";
+		"Book of Enoch";
+		"Malleus Maleficarum";
+		"Inferno";
+		"Paradise Lost";
+		"Shakespeare";
+		"Graveyard Poets";
 		"Folklore" -> "Poetry" -> "Prose";
 	}
 
 	subgraph cluster_pregothic {
 		node [style=filled];
-		label = "The Dawn of Gothic";
+		label = "The Dawn of Gothic\n(1765)";
 		color=blue;
 		
 		"Horace Walpole" -> wapole01;
 		wapole01 [shape=note label="Castle of Otronto"];
 
-		"Horace Walpole" -> "Barbauld";
-		"Horace Walpole" -> "Aikin";
 		"Horace Walpole" -> "Clara Reeve";
+ 		"Clara Reeve" -> creeve01;
+		creeve01 [shape=note label="Old English Baron"];
+		
 		"Horace Walpole" -> "Sophia Lee";
-
+		"Sophia Lee" -> slee01;
+		slee01 [shape=note label="The Recess"];
+		
 		"Horace Walpole" -> "Ann Radcliffe";
 		"Ann Radcliffe" -> radcliffe01;
 		radcliffe01 [shape=note label="Mysteries of Udolpho"];
@@ -33,6 +42,9 @@ digraph G {
 		"Charles Brockden Brown" -> cbbrown01;
 		cbbrown01 [shape=note label="Wieland"];
 	}
+
+	radcliffe01 -> "Lord Byron" [style=dotted];
+	"Horace Walpole" -> "Anna Barbauld" [style=dotted dir=back label="popularized"];
 
 	subgraph cluster_gothic {
 		node [style=filled];
@@ -86,40 +98,38 @@ digraph G {
 		
 		"Emily Bronte" -> ebronte01;
 		ebronte01 [shape=note label="Wuthering Heights"];
-
-		"William Godwin" -> wgodwin01;
-		wgodwin01 [shape=note label=""];
-
-		"Francis Barrett" -> fbarrett01;
-		fbarrett01 [shape=note label=""];
-
-		"George W.M. Reynolds" -> greynolds01;
-		greynolds01 [shape=note label=""];
-
-		"Joseph S. Le Fanu" -> lefanu01;
-		lefanu01 [shape=note label="Carmilla"];
-
-		"Wilkie Collins" -> wcollins01;
-		wcollins01 [shape=note label=""];
-		
-		"William Ainsworth" -> whainsworth01;
-		whainsworth01 [shape=note label=""];
-
-		"Charles Dickens" -> dickens01;
-		dickens01 [shape=note label=""];
-
-		"H.R. Haggard" -> hrhaggard01;
-		hrhaggard01 [shape=note label=""];
-
-		"A.C. Doyle" -> acdoyle01;
-		acdoyle01 [shape=note label=""];	   
-
-		"H.G. Wells" -> hgwells01;
-		hgwells01 [shape=note label=""];	   
-
-		"Louis Stevenson" -> lstevenson01;
-		lstevenson01 [shape=note label=""];
 	}
+
+	"William Godwin" -> wgodwin01;
+	wgodwin01 [shape=note label=""];
+
+	"Francis Barrett" -> "Sir Walter Scott" [style=dotted];
+	"Francis Barrett" -> "Washington Irving" [style=dotted];
+	"Francis Barrett" -> "Thomas Moore" [style=dotted];
+	"George W.M. Reynolds" -> "Sir Walter Scott" [style=dotted];
+	"George W.M. Reynolds" -> "Washington Irving" [style=dotted];
+	"George W.M. Reynolds" -> "Thomas Moore" [style=dotted];
+	"William Godwin" -> "Sir Walter Scott" [style=dotted];
+	"William Godwin" -> "Washington Irving" [style=dotted];
+	"William Godwin" -> "Thomas Moore" [style=dotted];
+	"Sir Walter Scott" -> "William Ainsworth" [style=dotted];
+	"Sir Walter Scott" -> "Charles Dickens" [style=dotted];
+	"Sir Walter Scott" -> "Joseph S. Le Fanu" [style=dotted];
+	"Sir Walter Scott" -> "H.R. Haggard" [style=dotted];
+	"Sir Walter Scott" -> "H.G. Wells" [style=dotted];
+	"Sir Walter Scott" -> "Louis Stevenson" [style=dotted];
+	"Washington Irving" -> "William Ainsworth" [style=dotted];
+	"Washington Irving" -> "Charles Dickens" [style=dotted];
+	"Washington Irving" -> "Joseph S. Le Fanu" [style=dotted];
+	"Washington Irving" -> "H.R. Haggard" [style=dotted];
+	"Washington Irving" -> "H.G. Wells" [style=dotted];
+	"Washington Irving" -> "Louis Stevenson" [style=dotted];
+	"Thomas Moore" -> "William Ainsworth" [style=dotted];
+	"Thomas Moore" -> "Charles Dickens" [style=dotted];
+	"Thomas Moore" -> "Joseph S. Le Fanu" [style=dotted];
+	"Thomas Moore" -> "H.R. Haggard" [style=dotted];
+	"Thomas Moore" -> "H.G. Wells" [style=dotted];
+	"Thomas Moore" -> "Louis Stevenson" [style=dotted];
 
 	subgraph cluster_spectral {
 		node [style=filled];
@@ -216,11 +226,6 @@ digraph G {
 		
 		"Herbert Gorman" -> hgorman01;
 		hgorman01 [shape=note label=""];
-
-		"Herbert Gorman" -> "Clark Ashton Smith";
-		
-		"Clark Ashton Smith" -> casmith01;
-		casmith01 [shape=note label=""];
 		
 		"Oliver Wendel Holmes" -> owholmes01;
 		owholmes01 [shape=note label=""];
@@ -235,8 +240,18 @@ digraph G {
 
 		"Francis Crawford" -> fmcrawford01;
 		fmcrawford01 [shape=note label=""];
+
+		"Robert W. Chambers" -> "Abraham Merritt";
+		
+		"Abraham Merritt" -> amerritt01;
+		amerritt01 [shape=note label=""];		
 	}
 
+	"Herbert Gorman" -> "Clark Ashton Smith";
+	"Clark Ashton Smith" -> "Jack Vance" [style=dotted];
+	"Robert W. Chambers" -> "Jack Vance" [style=dotted];
+	"Lord Dunsany" -> "Jack Vance" [style=dotted];
+	
 	subgraph cluster_weirdeu {
 		node [style=filled];
 		label = "Weird Europe";
@@ -296,6 +311,10 @@ digraph G {
 
 		"Joseph Conrad" -> jconrad01;
 		jconrad01 [shape=note label=""];
+
+		"Bruno Schulz" -> bschulz01;
+		bschulz01 [shape=note label="Street of Crocodiles"];
+
 	}   
 
 	"Walter de la Mare" -> "H.G. Wells" [style=dotted];
@@ -320,10 +339,87 @@ digraph G {
 		"M.R. James" -> mrjames01;
 		mrjames01 [shape=note label=""];
 	}
+
+	subgraph cluster_hpl {
+		node [style=filled];
+		label = "Lovecraft";
+		color=blue;
+
+		"H.P. Lovecraft";
+	}
+
+	subgraph cluster_weirdtales {
+		node [style=filled];
+		label = "Weird Periodicals Era";
+		color=blue;
+
+		"Clark Ashton Smith" -> casmith01;
+		casmith01 [shape=note label=""];
+
+		"Robert E. Howard" -> rehoward01;
+		rehoward01 [shape=note label=""];
+
+		"Fritz Leiber" -> fleiber01;
+		fleiber01 [shape=note label=""];
+
+		"Robert Bloch" -> rbloch01;
+		rbloch01 [shape=note label=""];
+
+		"Donald Wandrei" -> dwandrei01;
+		dwandrei01 [shape=note label=""];
+
+		"Frank Belknap Long" -> fblong01;
+		fblong01 [shape=note label=""];
+
+		"August Derleth" -> aderleth01;
+		aderleth01 [shape=note label=""];
+
+		"C.M. Eddy Jr." -> cmeddy01;
+		cmeddy01 [shape=note label=""];
+	}
+
+	"Robert E. Howard" -> "Gary Gygax" [style=dotted];
+	"Fritz Leiber" -> "Gary Gygax" [style=dotted];
+	"H.P. Lovecraft" -> "Gary Gygax" [style=dotted];
+	
+	subgraph cluster_posthpl {
+		node [style=filled];
+		label = "Post Lovecraft";
+		color=blue;
+
+		"Robert Aickman";
+		"Ramsey Campbell";
+		"Shirley Jackson";
+		"Sarban";
+		"J.G. Ballard";
+	}
+
+	subgraph cluster_prenewweird {
+		node [style=filled];
+		label = "Pre New Weird";
+		color=blue;
+
+		"Laird Barron";
+		"Clive Barker";
+		"Poppy Z. Brite";
+		"Mark Z. Danielewski";
+		"Thomas Ligotti";
+		"Brian Lumley";
+	}
+
+	subgraph cluster_newweird {
+		node [style=filled];
+		label = "Pre New Weird";
+		color=blue;
+
+		"China Mieville";
+		"Jeff Vandermeer";
+		"John Langan";
+	}
 	
 	"Jane Austen" -> jausten01;
 	jausten01 [shape=note label="Northanger Abbey"];
-	radcliffe01 -> jausten01 [label = "parody"];
+	radcliffe01 -> jausten01 [label = "parody" style=dashed];
 
 	"Prose" -> "Horace Walpole" [ltail=cluster_dawn lhead=cluster_pregothic];
 	"Ann Radcliffe" -> "Matthew Lewis" [ltail=cluster_pregothic lhead=cluster_gothic];
@@ -335,4 +431,16 @@ digraph G {
 	"Edgar Allen Poe" -> "Oscar Wilde" [ltail=cluster_poe lhead=cluster_weirdeu];
 	"Nathaniel Hawthorne" -> "Arthur Machen" [ltail=cluster_weirdusa lhead=cluster_masters];
 	"Oscar Wilde" -> "Algernon Blackwood" [ltail=cluster_weirdeu lhead=cluster_masters];
+	"Arthur Machen" -> "H.P. Lovecraft" [ltail=cluster_masters lhead=cluster_hpl];
+	"Clark Ashton Smith" -> "H.P. Lovecraft" [ltail=cluster_weirdtales lhead=cluster_hpl];
+	"Abraham Merritt" -> "H.P. Lovecraft" [ltail=cluster_weirdusa lhead=cluster_hpl];	
+	"H.P. Lovecraft" -> "Robert E. Howard" [ltail=cluster_hpl lhead=cluster_weirdtales];
+	"H.P. Lovecraft" -> "Ramsey Campbell" [ltail=cluster_hpl lhead=cluster_posthpl];
+	"Clark Ashton Smith" -> "Robert Aickman" [ltail=cluster_weirdtales lhead=cluster_posthpl];
+	"H.P. Lovecraft" -> "Brian Lumley" [ltail=cluster_hpl lhead=cluster_prenewweird];
+	"Arthur Machen" -> "Thomas Ligotti" [ltail=cluster_masters lhead=cluster_prenewweird];
+	"M.R. James" -> "Robert Aickman" [ltail=cluster_masters lhead=cluster_posthpl];
+	"Ramsey Campbell" -> "Laird Barron" [ltail=cluster_posthpl lhead=cluster_prenewweird];
+	"J.G. Ballard" -> "China Mieville" [ltail=cluster_posthpl lhead=cluster_newweird];
+	"H.P. Lovecraft" -> "China Mieville" [ltail=cluster_hpl lhead=cluster_newweird];
 }
