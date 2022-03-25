@@ -70,6 +70,7 @@ digraph G {
 	"William Beckford" -> "John Keats" [style=dotted];
 	"Charles Brockden Brown" -> "John Keats" [style=dotted];
 	"William Godwin" -> "John Keats" [style=dotted];
+	"Matthew Lewis" -> "Sir Walter Scott" [style=dotted];
 	
 	subgraph cluster_postgothic {
 		node [style=filled];
@@ -77,20 +78,12 @@ digraph G {
 		color=blue;
 
 		"William Beckford" -> wbeckford01;
-		wbeckford01 [shape=note color=azure2 label="Vathek"];
-		
-		"Sir Walter Scott" -> swscott01;
-		swscott01 [shape=note color=azure2 label=""];
+		wbeckford01 [shape=note color=azure2 label="Vathek"];	
 
 		"Washington Irving" -> wirving01;
 		wirving01 [shape=note color=azure2 label="Legend of Sleepy Hollow"];
 
-		"Thomas Moore" -> tmoore01;
-		tmoore01 [shape=note color=azure2 label=""];
-
-		"William Beckford" -> "Sir Walter Scott";
 		"William Beckford" -> "Washington Irving";
-		"William Beckford" -> "Thomas Moore";
 		"William Beckford" -> "Mary Shelley";
 
 		"Mary Shelley" -> mshelley01;
@@ -111,6 +104,8 @@ digraph G {
 		ebronte01 [shape=note color=azure2 label="Wuthering Heights"];
 	}
 
+	"William Beckford" -> "Thomas Moore" [style=dotted];
+	"William Beckford" -> "Sir Walter Scott" [style=dotted];
 	"Francis Barrett" -> "Sir Walter Scott" [style=dotted];
 	"Francis Barrett" -> "Washington Irving" [style=dotted];
 	"Francis Barrett" -> "Thomas Moore" [style=dotted];
@@ -138,35 +133,41 @@ digraph G {
 	"Thomas Moore" -> "H.R. Haggard" [style=dotted];
 	"Thomas Moore" -> "H.G. Wells" [style=dotted];
 	"Thomas Moore" -> "Louis Stevenson" [style=dotted];
-
+	"Matthew Lewis" -> "E.T.A. Hoffman" [style=dotted];
+	
 	subgraph cluster_spectral {
 		node [style=filled];
 		label = "Spectral Literature";
 		color=blue;
 
 		"E.T.A. Hoffman" -> etahoffman01;
-		etahoffman01 [shape=note color=azure2 label=""];
+		etahoffman01 [shape=note color=azure2 label="The Devil's Elixirs"];
 
 		"E.T.A. Hoffman" -> "Wilhelm Meinhold";
 
 		"Wilhelm Meinhold" -> wmeinhold01;
-		wmeinhold01 [shape=note color=azure2 label=""];	    
+		wmeinhold01 [shape=note color=azure2 label="The Amber Witch"];	    
 		
-		"Friedrich De La Motte" -> fdlmotte01;
-		fdlmotte01 [shape=note color=azure2 label=""];
-
 		"E.T.A. Hoffman" -> "Guy de Maupassant";
-		"Friedrich De La Motte" -> "Guy de Maupassant";
 
 		"Guy de Maupassant" -> gdmaupassant01;
-		gdmaupassant01 [shape=note color=azure2 label=""];
+		"Guy de Maupassant" -> gdmaupassant02;
+		"Guy de Maupassant" -> gdmaupassant03;
+		gdmaupassant01 [shape=note color=azure2 label="The Horla"];
+		gdmaupassant02 [shape=note color=azure2 label="The Dead Girl"];
+		gdmaupassant03 [shape=note color=azure2 label="Diary of a Madman"];
 
 		"Guy de Maupassant" -> "Hanns Ewers";
 
 		"Hanns Ewers" -> hhewers01;
-		hhewers01 [shape=note color=azure2 label=""];	    
+		"Hanns Ewers" -> hhewers02;
+		"Hanns Ewers" -> hhewers03;
+		hhewers01 [shape=note color=azure2 label="The Sorcerer's Apprentice"];
+		hhewers02 [shape=note color=azure2 label="Alraune"];
+		hhewers03 [shape=note color=azure2 label="Vampyr"];
 	}
 
+	"Friedrich De La Motte" -> "Guy de Maupassant" [style=dotted];
 	"E.T.A. Hoffman" -> "Victor Hugo" [style=dotted];
 	"E.T.A. Hoffman" -> "Théophile Gautier" [style=dotted];
 	"E.T.A. Hoffman" -> "Baudelaire" [style=dotted];
@@ -187,7 +188,11 @@ digraph G {
 		color=blue;
 
 		"Edgar Allen Poe" -> poe01;
-		poe01 [shape=note color=azure2 label=""];
+		"Edgar Allen Poe" -> poe02;
+		"Edgar Allen Poe" -> poe03;
+		poe01 [shape=note color=azure2 label="Tales of Mystery\nand Imagination"];
+		poe02 [shape=note color=azure2 label="Tales of the Grotesque\nand Arabesque"];
+		poe03 [shape=note color=azure2 label="The Raven and\nOther Poems"];
 	}
 
 	subgraph cluster_weirdusa {
@@ -198,61 +203,61 @@ digraph G {
 		"Nathaniel Hawthorne" -> nhawthorne01;
 		nhawthorne01 [shape=note color=azure2 label="House of Seven Gables"];
 
-		"James O'Brien" -> jobrien01;
-		jobrien01 [shape=note color=azure2 label=""];
+		"Fitz James O'Brien" -> fjobrien01;
+		fjobrien01 [shape=note color=azure2 label="The Diamond Lens"];
 
 		"James O'Brien" -> "Robert W. Chambers";
 		"James O'Brien" -> "Ralph Cram";
 
 		"Robert W. Chambers" -> rwchambers01;
-		rwchambers01 [shape=note color=azure2 label="The King in Azure2"];
+		rwchambers01 [shape=note color=azure2 label="The King in Yellow"];
 
 		"Ralph Cram" -> rcram01;
-		rcram01 [shape=note color=azure2 label=""];
+		rcram01 [shape=note color=azure2 label="Black Spirits and White"];
 
 		"Ralph Cram" -> "Irvin Cobb";
 		"Ralph Cram" -> "Leonard Cline";
 		
 		"Irvin Cobb" -> iscobb01;
-		iscobb01 [shape=note color=azure2 label=""];
+		iscobb01 [shape=note color=azure2 label="Back There in the Grass"];
 
 		"Irvin Cobb" -> "Leland Hall";
 		"Irvin Cobb" -> "Edward White";
 		
 		"Leland Hall" -> lhall01;
-		lhall01 [shape=note color=azure2 label=""];
+		lhall01 [shape=note color=azure2 label="Sinister House"];
 
 		"Edward White" -> elwhite01;
-		elwhite01 [shape=note color=azure2 label=""];
+		elwhite01 [shape=note color=azure2 label="Lukundoo and\nOther Stories"];
 		
 		"Leonard Cline" -> lcline01;
-		lcline01 [shape=note color=azure2 label=""];
+		lcline01 [shape=note color=azure2 label="The Lady of Frozen Death"];
 
 		"Leonard Cline" -> "Herbert Gorman";
 		"Leonard Cline" -> "Edward White";
 		"Ambrose Bierce" -> "Herbert Gorman";
 		
 		"Herbert Gorman" -> hgorman01;
-		hgorman01 [shape=note color=azure2 label=""];
+		hgorman01 [shape=note color=azure2 label="The Place Called Dagon"];
 		
 		"Oliver Wendel Holmes" -> owholmes01;
-		owholmes01 [shape=note color=azure2 label=""];
+		owholmes01 [shape=note color=azure2 label="Elsie Venner"];
 
 		"Oliver Wendel Holmes" -> "Ambrose Bierce";
 
 		"Ambrose Bierce" -> abierce01;
-		abierce01 [shape=note color=azure2 label=""];
+		abierce01 [shape=note color=azure2 label="An Occurrence at\nOwl Creek Bridge"];
 		
 		"Henry James" -> hjames01;
-		hjames01 [shape=note color=azure2 label=""];
+		hjames01 [shape=note color=azure2 label="Turn of the Screw"];
 
 		"Francis Crawford" -> fmcrawford01;
-		fmcrawford01 [shape=note color=azure2 label=""];
+		fmcrawford01 [shape=note color=azure2 label="Uncanny Tales"];
 
 		"Robert W. Chambers" -> "Abraham Merritt";
 		
 		"Abraham Merritt" -> amerritt01;
-		amerritt01 [shape=note color=azure2 label=""];		
+		amerritt01 [shape=note color=azure2 label="The Moon Pool"];
 	}
 
 	"Herbert Gorman" -> "Clark Ashton Smith";
@@ -266,48 +271,52 @@ digraph G {
 		color=blue;
 
 		"Oscar Wilde" -> owilde01;
-		owilde01 [shape=note color=azure2 label=""];
+		owilde01 [shape=note color=azure2 label="Picture of Dorian Gray"];
 
 		"Oscar Wilde" -> "Rudyard Kipling";
 		"Oscar Wilde" -> "William Hope Hodgson";
 		"Oscar Wilde" -> "Lafcadio Hearn";
 
 		"Rudyard Kipling" -> rkipling01;
-		rkipling01 [shape=note color=azure2 label=""];
+		rkipling01 [shape=note color=azure2 label="Strange Tales"];
 
 		"William Hope Hodgson" -> whhodgson01;
-		whhodgson01 [shape=note color=azure2 label=""];
+		"William Hope Hodgson" -> whhodgson02;
+		whhodgson01 [shape=note color=azure2 label="House on\nthe Borderland"];
+		whhodgson02 [shape=note color=azure2 label="The Night Land"];
 
 		"William Hope Hodgson" -> "John Buchan";
 		"Lafcadio Hearn" -> "John Buchan";
 
 		"Lafcadio Hearn" -> lhearn01;
-		lhearn01 [shape=note color=azure2 label=""];
+		lhearn01 [shape=note color=azure2 label="Kwaidan"];
 		
 		"John Buchan" -> jbuchan01;
-		jbuchan01 [shape=note color=azure2 label=""];
+		jbuchan01 [shape=note color=azure2 label="Supernatural Tales"];
 
 		"John Buchan" -> "Walter de la Mare";
 		"John Buchan" -> "E.F. Benson";
 		
 		"Walter de la Mare" -> wdlmare01;
-		wdlmare01 [shape=note color=azure2 label=""];
+		"Walter de la Mare" -> wdlmare02;
+		wdlmare01 [shape=note color=azure2 label="The Return"];
+		wdlmare01 [shape=note color=azure2 label="Out of the Deep"];
 
 		"E.F. Benson" -> efbenson01;
-		efbenson01 [shape=note color=azure2 label=""];
+		efbenson01 [shape=note color=azure2 label="The Outcast"];
 
 		"E.F. Benson" -> "H.R. Wakefield";
 		
 		"H.R. Wakefield" -> hrwakefield01;
-		hrwakefield01 [shape=note color=azure2 label=""];		
+		hrwakefield01 [shape=note color=azure2 label="Ghost Stories"];		
 
 		"H.R. Wakefield" -> "M.P. Shiel";
 		
 		"M.P. Shiel" -> mpshiel01;
-		mpshiel01 [shape=note color=azure2 label=""];		
+		mpshiel01 [shape=note color=azure2 label="The Purple Cloud"];
 		
 		"Bram Stoker" -> bstoker01;
-		bstoker01 [shape=note color=azure2 label=""];
+		bstoker01 [shape=note color=azure2 label="Dracula"];
 
 		"Rudyard Kipling" -> "Robert Browning";
 		"Rudyard Kipling" -> "Joseph Conrad";
@@ -315,14 +324,18 @@ digraph G {
 		"Bram Stoker" -> "Joseph Conrad";	
 		
 		"Robert Browning" -> rbrowning01;
-		rbrowning01 [shape=note color=azure2 label=""];
+		rbrowning01 [shape=note color=azure2 label="My Last Duchess"];
 
 		"Joseph Conrad" -> jconrad01;
-		jconrad01 [shape=note color=azure2 label=""];
+		jconrad01 [shape=note color=azure2 label="Heart of Darkness"];
 
 		"Bruno Schulz" -> bschulz01;
 		bschulz01 [shape=note color=azure2 label="Street of Crocodiles"];
 
+		"Oliver Onions" -> oonions01;
+		"Oliver Onions" -> oonions02;
+		oonions01 [shape=note color=azure2 label="Widdershins"];
+		oonions02 [shape=note color=azure2 label="Beckoning Fair One"];
 	}   
 
 	"Walter de la Mare" -> "H.G. Wells" [style=dotted];
@@ -336,16 +349,34 @@ digraph G {
 		color=blue;
 
 		"Arthur Machen" -> amachen01;
-		amachen01 [shape=note color=azure2 label=""];
+		"Arthur Machen" -> amachen02;
+		"Arthur Machen" -> amachen03;
+		"Arthur Machen" -> amachen04;
+		amachen01 [shape=note color=azure2 label="The Great God Pan"];
+		amachen02 [shape=note color=azure2 label="The Three Imposters"];
+		amachen03 [shape=note color=azure2 label="The Hill of Dreams"];
+		amachen04 [shape=note color=azure2 label="The White People"];
 		
 		"Algernon Blackwood" -> ablackwood01;
-		ablackwood01 [shape=note color=azure2 label=""];
+		"Algernon Blackwood" -> ablackwood02;
+		"Algernon Blackwood" -> ablackwood03;
+		ablackwood01 [shape=note color=azure2 label="The Willows"];
+		ablackwood02 [shape=note color=azure2 label="The Wendigo"];
+		ablackwood03 [shape=note color=azure2 label="John Silence"];
 
 		"Lord Dunsany" -> ldunsany01;
-		ldunsany01 [shape=note color=azure2 label=""];
+		"Lord Dunsany" -> ldunsany02;
+		"Lord Dunsany" -> ldunsany03;
+		ldunsany01 [shape=note color=azure2 label="The Gods of Pegāna"];
+		ldunsany02 [shape=note color=azure2 label="The Book of Wonder"];
+		ldunsany03 [shape=note color=azure2 label="Jorkens"];
 		
 		"M.R. James" -> mrjames01;
-		mrjames01 [shape=note color=azure2 label=""];
+		"M.R. James" -> mrjames02;
+		"M.R. James" -> mrjames03;
+		mrjames01 [shape=note color=azure2 label="Ghost Stories of an Antiquary"];
+		mrjames02 [shape=note color=azure2 label="A Warning to the Curious"];
+		mrjames03 [shape=note color=azure2 label="A Thin Ghost"];
 	}
 
 	subgraph cluster_hpl {
@@ -353,7 +384,16 @@ digraph G {
 		label = "Lovecraft";
 		color=blue;
 
-		"H.P. Lovecraft";
+		"H.P. Lovecraft" -> hpl01;
+		"H.P. Lovecraft" -> hpl02;
+		"H.P. Lovecraft" -> hpl03;
+		"H.P. Lovecraft" -> hpl04;
+		"H.P. Lovecraft" -> hpl05;
+		hpl01 [shape=note color=azure2 label="At the Mountains of Madness"];
+		hpl02 [shape=note color=azure2 label="Dagon"];
+		hpl03 [shape=note color=azure2 label="The Call of Cthulhu"];
+		hpl04 [shape=note color=azure2 label="The Case of Charles Dexter Ward"];
+		hpl05 [shape=note color=azure2 label="The Ancient Track"];
 	}
 
 	subgraph cluster_weirdtales {
@@ -362,28 +402,40 @@ digraph G {
 		color=blue;
 
 		"Clark Ashton Smith" -> casmith01;
-		casmith01 [shape=note color=azure2 label=""];
+		"Clark Ashton Smith" -> casmith02;
+		"Clark Ashton Smith" -> casmith03;
+		"Clark Ashton Smith" -> casmith04;
+		casmith01 [shape=note color=azure2 label="Hyperborea"];
+		casmith02 [shape=note color=azure2 label="Poseidonis"];
+		casmith03 [shape=note color=azure2 label="Zothique"];
+		casmith04 [shape=note color=azure2 label="Xiccarph"];
 
 		"Robert E. Howard" -> rehoward01;
-		rehoward01 [shape=note color=azure2 label=""];
+		rehoward01 [shape=note color=azure2 label="Shadow Kingdoms"];
 
 		"Fritz Leiber" -> fleiber01;
-		fleiber01 [shape=note color=azure2 label=""];
+		"Fritz Leiber" -> fleiber02;
+		"Fritz Leiber" -> fleiber03;
+		fleiber01 [shape=note color=azure2 label="Horrible Imaginings"];
+		fleiber02 [shape=note color=azure2 label="Smoke Ghost"];
+		fleiber03 [shape=note color=azure2 label="The Black Gondolier"];
 
 		"Robert Bloch" -> rbloch01;
-		rbloch01 [shape=note color=azure2 label=""];
+		rbloch01 [shape=note color=azure2 label="Opener of the Way"];
 
 		"Donald Wandrei" -> dwandrei01;
-		dwandrei01 [shape=note color=azure2 label=""];
+		dwandrei01 [shape=note color=azure2 label="Strange Harvest"];
 
 		"Frank Belknap Long" -> fblong01;
-		fblong01 [shape=note color=azure2 label=""];
+		fblong01 [shape=note color=azure2 label="The Hounds of Tindalos"];
 
 		"August Derleth" -> aderleth01;
-		aderleth01 [shape=note color=azure2 label=""];
+		"August Derleth" -> aderleth02;
+		aderleth01 [shape=note color=azure2 label="The Mask of Cthulhu"];
+		aderleth02 [shape=note color=azure2 label="The Trail of Cthulhu"];
 
 		"C.M. Eddy Jr." -> cmeddy01;
-		cmeddy01 [shape=note color=azure2 label=""];
+		cmeddy01 [shape=note color=azure2 label="The Loved Dead"];
 	}
 
 	"Robert E. Howard" -> "Gary Gygax" [style=dotted];
