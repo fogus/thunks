@@ -447,11 +447,26 @@ digraph G {
 		label = "Post Lovecraft";
 		color=blue;
 
-		"Robert Aickman";
-		"Ramsey Campbell";
-		"Shirley Jackson";
-		"Sarban";
-		"J.G. Ballard";
+		"Robert Aickman" -> raickman01;
+		"Robert Aickman" -> raickman02;
+		"Robert Aickman" -> raickman03;
+		raickman01 [shape=note color=azure2 label="Cold Hand In Mine"];
+		raickman02 [shape=note color=azure2 label="Painted Devils"];
+		raickman03 [shape=note color=azure2 label="Sub Rosa"];
+		
+		"Ramsey Campbell" -> rcampbell01;
+		rcampbell01 [shape=note color=azure2 label="The Inhabitant of the Lake\nand Less Welcome Tenants"];
+		
+		"Shirley Jackson" -> sjackson01;
+		sjackson01 [shape=note color=azure2 label="Haunting of Hill House"];
+		
+		"Sarban" -> sarban01;
+		sarban01 [shape=note color=azure2 label="The Sacrifice\nand Other Stories "];
+		
+		"J.G. Ballard" -> jgballard01;
+		"J.G. Ballard" -> jgballard02;
+		jgballard01 [shape=note color=azure2 label="Crash"];
+		jgballard02 [shape=note color=azure2 label="The Crystal World"];
 	}
 
 	subgraph cluster_prenewweird {
@@ -459,22 +474,52 @@ digraph G {
 		label = "Pre New Weird";
 		color=blue;
 
-		"Laird Barron";
-		"Clive Barker";
-		"Poppy Z. Brite";
-		"Mark Z. Danielewski";
-		"Thomas Ligotti";
-		"Brian Lumley";
+		"Laird Barron" -> lbarron01;
+		"Laird Barron" -> lbarron02;
+		"Laird Barron" -> lbarron03;
+		lbarron01 [shape=note color=azure2 label="Occultation"];
+		lbarron02 [shape=note color=azure2 label="The Imago Sequence"];
+		lbarron03 [shape=note color=azure2 label="The Croning"];
+		
+		"Clive Barker" -> cbarker01;
+		"Clive Barker" -> cbarker02;
+		cbarker01 [shape=note color=azure2 label="The Books of Blood"];
+		cbarker02 [shape=note color=azure2 label="Cabal"];
+		
+		"Poppy Z. Brite" -> pzbrite01;
+		pzbrite01 [shape=note color=azure2 label="Wormwood"];
+		
+		"Mark Z. Danielewski" -> mzd01;
+		mzd01 [shape=note color=azure2 label="House of Leaves"];
+		
+		"Thomas Ligotti" -> ligotti01;
+		"Thomas Ligotti" -> ligotti02;
+		"Thomas Ligotti" -> ligotti03;
+		"Thomas Ligotti" -> ligotti04;
+		"Thomas Ligotti" -> ligotti05;
+		ligotti01 [shape=note color=azure2 label="Songs of a Dead Dreamer"];
+		ligotti02 [shape=note color=azure2 label="Grimscribe"];
+		ligotti03 [shape=note color=azure2 label="Noctuary"];
+		ligotti04 [shape=note color=azure2 label="The Spectral Link"];
+		ligotti05 [shape=note color=azure2 label="Teatro Grottesco"];
+		
+		"Brian Lumley" -> blumley01;
+		blumley01 [shape=note color=azure2 label="Beneath the Moors"];
 	}
 
 	subgraph cluster_newweird {
 		node [style=filled];
-		label = "Pre New Weird";
+		label = "New Weird";
 		color=blue;
 
-		"China Mieville";
-		"Jeff Vandermeer";
-		"John Langan";
+		"China Mieville" -> mieville01;
+		mieville01 [shape=note color=azure2 label="Perdido Street Station"];
+		
+		"Jeff Vandermeer" -> jvdm01;
+		jvdm01 [shape=note color=azure2 label="Annihilation"];
+		
+		"John Langan" -> jlangan01;
+		jlangan01 [shape=note color=azure2 label="The Fisherman"];
 	}
 	
 	"Jane Austen" -> jausten01;
