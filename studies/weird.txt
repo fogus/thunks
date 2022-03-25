@@ -20,27 +20,27 @@ digraph G {
 
 	subgraph cluster_pregothic {
 		node [style=filled];
-		label = "The Dawn of Gothic\n(1765)";
+		label = "The Dawn of Gothic\n(1764)";
 		color=blue;
 		
 		"Horace Walpole" -> wapole01;
-		wapole01 [shape=note label="Castle of Otronto"];
+		wapole01 [shape=note color=azure2 label="Castle of Otronto"];
 
 		"Horace Walpole" -> "Clara Reeve";
  		"Clara Reeve" -> creeve01;
-		creeve01 [shape=note label="Old English Baron"];
+		creeve01 [shape=note color=azure2 label="Old English Baron"];
 		
 		"Horace Walpole" -> "Sophia Lee";
 		"Sophia Lee" -> slee01;
-		slee01 [shape=note label="The Recess"];
+		slee01 [shape=note color=azure2 label="The Recess"];
 		
 		"Horace Walpole" -> "Ann Radcliffe";
 		"Ann Radcliffe" -> radcliffe01;
-		radcliffe01 [shape=note label="Mysteries of Udolpho"];
+		radcliffe01 [shape=note color=azure2 label="Mysteries of Udolpho"];
 
 		"Ann Radcliffe" -> "Charles Brockden Brown";
 		"Charles Brockden Brown" -> cbbrown01;
-		cbbrown01 [shape=note label="Wieland"];
+		cbbrown01 [shape=note color=azure2 label="Wieland"];
 	}
 
 	radcliffe01 -> "Lord Byron" [style=dotted];
@@ -52,30 +52,41 @@ digraph G {
 		color=blue;
 
 		"Matthew Lewis" -> mglewis01;
-		mglewis01 [shape=note label="The Monk"];
+		mglewis01 [shape=note color=azure2 label="The Monk"];
 
 		"Matthew Lewis" -> "Charles Maturin"
 		
 		"Charles Maturin" -> cmaturin01;
-		cmaturin01 [shape=note label="Melmouth the Wanderer"];
+		cmaturin01 [shape=note color=azure2 label="Melmouth the Wanderer"];
+
+		"William Godwin" -> wgodwin01;
+		wgodwin01 [shape=note color=azure2 label="Caleb Williams"];
 	}
 
+	"Ann Radcliffe" -> "Samuel Taylor Coleridge" [style=dotted];
+	"Matthew Lewis" -> "Samuel Taylor Coleridge" [style=dotted];
+	"Ann Radcliffe" -> "John Keats" [style=dotted];
+	"Matthew Lewis" -> "John Keats" [style=dotted];
+	"William Beckford" -> "John Keats" [style=dotted];
+	"Charles Brockden Brown" -> "John Keats" [style=dotted];
+	"William Godwin" -> "John Keats" [style=dotted];
+	
 	subgraph cluster_postgothic {
 		node [style=filled];
 		label = "Post Gothic";
 		color=blue;
-		
-		"William Beckford" -> wbeckford01;
-		wbeckford01 [shape=note label="Vathek"];
 
+		"William Beckford" -> wbeckford01;
+		wbeckford01 [shape=note color=azure2 label="Vathek"];
+		
 		"Sir Walter Scott" -> swscott01;
-		swscott01 [shape=note label=""];
+		swscott01 [shape=note color=azure2 label=""];
 
 		"Washington Irving" -> wirving01;
-		wirving01 [shape=note label="Legend of Sleepy Hollow"];
+		wirving01 [shape=note color=azure2 label="Legend of Sleepy Hollow"];
 
 		"Thomas Moore" -> tmoore01;
-		tmoore01 [shape=note label=""];
+		tmoore01 [shape=note color=azure2 label=""];
 
 		"William Beckford" -> "Sir Walter Scott";
 		"William Beckford" -> "Washington Irving";
@@ -83,25 +94,22 @@ digraph G {
 		"William Beckford" -> "Mary Shelley";
 
 		"Mary Shelley" -> mshelley01;
-		mshelley01 [shape=note label="Frankenstein"];
+		mshelley01 [shape=note color=azure2 label="Frankenstein"];
 
 		"Mary Shelley" -> "Edward Bulwer-Lytton";
 		
 		"Edward Bulwer-Lytton" -> eblytton01;
-		eblytton01 [shape=note label="House and the Brain"];
+		eblytton01 [shape=note color=azure2 label="House and the Brain"];
 		"Edward Bulwer-Lytton" -> eblytton02;
-		eblytton02 [shape=note label="Zanoni"];
+		eblytton02 [shape=note color=azure2 label="Zanoni"];
 		"Edward Bulwer-Lytton" -> eblytton03;
-		eblytton03 [shape=note label="A Strange Story"];
-
+		eblytton03 [shape=note color=azure2 label="A Strange Story"];
+	
 		"Edward Bulwer-Lytton" -> "Emily Bronte";
-		
+	
 		"Emily Bronte" -> ebronte01;
-		ebronte01 [shape=note label="Wuthering Heights"];
+		ebronte01 [shape=note color=azure2 label="Wuthering Heights"];
 	}
-
-	"William Godwin" -> wgodwin01;
-	wgodwin01 [shape=note label=""];
 
 	"Francis Barrett" -> "Sir Walter Scott" [style=dotted];
 	"Francis Barrett" -> "Washington Irving" [style=dotted];
@@ -137,26 +145,26 @@ digraph G {
 		color=blue;
 
 		"E.T.A. Hoffman" -> etahoffman01;
-		etahoffman01 [shape=note label=""];
+		etahoffman01 [shape=note color=azure2 label=""];
 
 		"E.T.A. Hoffman" -> "Wilhelm Meinhold";
 
 		"Wilhelm Meinhold" -> wmeinhold01;
-		wmeinhold01 [shape=note label=""];	    
+		wmeinhold01 [shape=note color=azure2 label=""];	    
 		
 		"Friedrich De La Motte" -> fdlmotte01;
-		fdlmotte01 [shape=note label=""];
+		fdlmotte01 [shape=note color=azure2 label=""];
 
 		"E.T.A. Hoffman" -> "Guy de Maupassant";
 		"Friedrich De La Motte" -> "Guy de Maupassant";
 
 		"Guy de Maupassant" -> gdmaupassant01;
-		gdmaupassant01 [shape=note label=""];
+		gdmaupassant01 [shape=note color=azure2 label=""];
 
 		"Guy de Maupassant" -> "Hanns Ewers";
 
 		"Hanns Ewers" -> hhewers01;
-		hhewers01 [shape=note label=""];	    
+		hhewers01 [shape=note color=azure2 label=""];	    
 	}
 
 	"E.T.A. Hoffman" -> "Victor Hugo" [style=dotted];
@@ -179,7 +187,7 @@ digraph G {
 		color=blue;
 
 		"Edgar Allen Poe" -> poe01;
-		poe01 [shape=note label=""];
+		poe01 [shape=note color=azure2 label=""];
 	}
 
 	subgraph cluster_weirdusa {
@@ -188,63 +196,63 @@ digraph G {
 		color=blue;
 
 		"Nathaniel Hawthorne" -> nhawthorne01;
-		nhawthorne01 [shape=note label="House of Seven Gables"];
+		nhawthorne01 [shape=note color=azure2 label="House of Seven Gables"];
 
 		"James O'Brien" -> jobrien01;
-		jobrien01 [shape=note label=""];
+		jobrien01 [shape=note color=azure2 label=""];
 
 		"James O'Brien" -> "Robert W. Chambers";
 		"James O'Brien" -> "Ralph Cram";
 
 		"Robert W. Chambers" -> rwchambers01;
-		rwchambers01 [shape=note label="The King in Yellow"];
+		rwchambers01 [shape=note color=azure2 label="The King in Azure2"];
 
 		"Ralph Cram" -> rcram01;
-		rcram01 [shape=note label=""];
+		rcram01 [shape=note color=azure2 label=""];
 
 		"Ralph Cram" -> "Irvin Cobb";
 		"Ralph Cram" -> "Leonard Cline";
 		
 		"Irvin Cobb" -> iscobb01;
-		iscobb01 [shape=note label=""];
+		iscobb01 [shape=note color=azure2 label=""];
 
 		"Irvin Cobb" -> "Leland Hall";
 		"Irvin Cobb" -> "Edward White";
 		
 		"Leland Hall" -> lhall01;
-		lhall01 [shape=note label=""];
+		lhall01 [shape=note color=azure2 label=""];
 
 		"Edward White" -> elwhite01;
-		elwhite01 [shape=note label=""];
+		elwhite01 [shape=note color=azure2 label=""];
 		
 		"Leonard Cline" -> lcline01;
-		lcline01 [shape=note label=""];
+		lcline01 [shape=note color=azure2 label=""];
 
 		"Leonard Cline" -> "Herbert Gorman";
 		"Leonard Cline" -> "Edward White";
 		"Ambrose Bierce" -> "Herbert Gorman";
 		
 		"Herbert Gorman" -> hgorman01;
-		hgorman01 [shape=note label=""];
+		hgorman01 [shape=note color=azure2 label=""];
 		
 		"Oliver Wendel Holmes" -> owholmes01;
-		owholmes01 [shape=note label=""];
+		owholmes01 [shape=note color=azure2 label=""];
 
 		"Oliver Wendel Holmes" -> "Ambrose Bierce";
 
 		"Ambrose Bierce" -> abierce01;
-		abierce01 [shape=note label=""];
+		abierce01 [shape=note color=azure2 label=""];
 		
 		"Henry James" -> hjames01;
-		hjames01 [shape=note label=""];
+		hjames01 [shape=note color=azure2 label=""];
 
 		"Francis Crawford" -> fmcrawford01;
-		fmcrawford01 [shape=note label=""];
+		fmcrawford01 [shape=note color=azure2 label=""];
 
 		"Robert W. Chambers" -> "Abraham Merritt";
 		
 		"Abraham Merritt" -> amerritt01;
-		amerritt01 [shape=note label=""];		
+		amerritt01 [shape=note color=azure2 label=""];		
 	}
 
 	"Herbert Gorman" -> "Clark Ashton Smith";
@@ -258,48 +266,48 @@ digraph G {
 		color=blue;
 
 		"Oscar Wilde" -> owilde01;
-		owilde01 [shape=note label=""];
+		owilde01 [shape=note color=azure2 label=""];
 
 		"Oscar Wilde" -> "Rudyard Kipling";
 		"Oscar Wilde" -> "William Hope Hodgson";
 		"Oscar Wilde" -> "Lafcadio Hearn";
 
 		"Rudyard Kipling" -> rkipling01;
-		rkipling01 [shape=note label=""];
+		rkipling01 [shape=note color=azure2 label=""];
 
 		"William Hope Hodgson" -> whhodgson01;
-		whhodgson01 [shape=note label=""];
+		whhodgson01 [shape=note color=azure2 label=""];
 
 		"William Hope Hodgson" -> "John Buchan";
 		"Lafcadio Hearn" -> "John Buchan";
 
 		"Lafcadio Hearn" -> lhearn01;
-		lhearn01 [shape=note label=""];
+		lhearn01 [shape=note color=azure2 label=""];
 		
 		"John Buchan" -> jbuchan01;
-		jbuchan01 [shape=note label=""];
+		jbuchan01 [shape=note color=azure2 label=""];
 
 		"John Buchan" -> "Walter de la Mare";
 		"John Buchan" -> "E.F. Benson";
 		
 		"Walter de la Mare" -> wdlmare01;
-		wdlmare01 [shape=note label=""];
+		wdlmare01 [shape=note color=azure2 label=""];
 
 		"E.F. Benson" -> efbenson01;
-		efbenson01 [shape=note label=""];
+		efbenson01 [shape=note color=azure2 label=""];
 
 		"E.F. Benson" -> "H.R. Wakefield";
 		
 		"H.R. Wakefield" -> hrwakefield01;
-		hrwakefield01 [shape=note label=""];		
+		hrwakefield01 [shape=note color=azure2 label=""];		
 
 		"H.R. Wakefield" -> "M.P. Shiel";
 		
 		"M.P. Shiel" -> mpshiel01;
-		mpshiel01 [shape=note label=""];		
+		mpshiel01 [shape=note color=azure2 label=""];		
 		
 		"Bram Stoker" -> bstoker01;
-		bstoker01 [shape=note label=""];
+		bstoker01 [shape=note color=azure2 label=""];
 
 		"Rudyard Kipling" -> "Robert Browning";
 		"Rudyard Kipling" -> "Joseph Conrad";
@@ -307,13 +315,13 @@ digraph G {
 		"Bram Stoker" -> "Joseph Conrad";	
 		
 		"Robert Browning" -> rbrowning01;
-		rbrowning01 [shape=note label=""];
+		rbrowning01 [shape=note color=azure2 label=""];
 
 		"Joseph Conrad" -> jconrad01;
-		jconrad01 [shape=note label=""];
+		jconrad01 [shape=note color=azure2 label=""];
 
 		"Bruno Schulz" -> bschulz01;
-		bschulz01 [shape=note label="Street of Crocodiles"];
+		bschulz01 [shape=note color=azure2 label="Street of Crocodiles"];
 
 	}   
 
@@ -328,16 +336,16 @@ digraph G {
 		color=blue;
 
 		"Arthur Machen" -> amachen01;
-		amachen01 [shape=note label=""];
+		amachen01 [shape=note color=azure2 label=""];
 		
 		"Algernon Blackwood" -> ablackwood01;
-		ablackwood01 [shape=note label=""];
+		ablackwood01 [shape=note color=azure2 label=""];
 
 		"Lord Dunsany" -> ldunsany01;
-		ldunsany01 [shape=note label=""];
+		ldunsany01 [shape=note color=azure2 label=""];
 		
 		"M.R. James" -> mrjames01;
-		mrjames01 [shape=note label=""];
+		mrjames01 [shape=note color=azure2 label=""];
 	}
 
 	subgraph cluster_hpl {
@@ -354,28 +362,28 @@ digraph G {
 		color=blue;
 
 		"Clark Ashton Smith" -> casmith01;
-		casmith01 [shape=note label=""];
+		casmith01 [shape=note color=azure2 label=""];
 
 		"Robert E. Howard" -> rehoward01;
-		rehoward01 [shape=note label=""];
+		rehoward01 [shape=note color=azure2 label=""];
 
 		"Fritz Leiber" -> fleiber01;
-		fleiber01 [shape=note label=""];
+		fleiber01 [shape=note color=azure2 label=""];
 
 		"Robert Bloch" -> rbloch01;
-		rbloch01 [shape=note label=""];
+		rbloch01 [shape=note color=azure2 label=""];
 
 		"Donald Wandrei" -> dwandrei01;
-		dwandrei01 [shape=note label=""];
+		dwandrei01 [shape=note color=azure2 label=""];
 
 		"Frank Belknap Long" -> fblong01;
-		fblong01 [shape=note label=""];
+		fblong01 [shape=note color=azure2 label=""];
 
 		"August Derleth" -> aderleth01;
-		aderleth01 [shape=note label=""];
+		aderleth01 [shape=note color=azure2 label=""];
 
 		"C.M. Eddy Jr." -> cmeddy01;
-		cmeddy01 [shape=note label=""];
+		cmeddy01 [shape=note color=azure2 label=""];
 	}
 
 	"Robert E. Howard" -> "Gary Gygax" [style=dotted];
@@ -418,8 +426,8 @@ digraph G {
 	}
 	
 	"Jane Austen" -> jausten01;
-	jausten01 [shape=note label="Northanger Abbey"];
-	radcliffe01 -> jausten01 [label = "parody" style=dashed];
+	jausten01 [shape=note color=azure2 label="Northanger Abbey"];
+	radcliffe01 -> jausten01 [style=dashed label="parody"];
 
 	"Prose" -> "Horace Walpole" [ltail=cluster_dawn lhead=cluster_pregothic];
 	"Ann Radcliffe" -> "Matthew Lewis" [ltail=cluster_pregothic lhead=cluster_gothic];
