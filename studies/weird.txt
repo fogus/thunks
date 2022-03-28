@@ -167,8 +167,15 @@ digraph G {
 		hhewers01 [shape=note color=azure2 label="The Sorcerer's Apprentice"];
 		hhewers02 [shape=note color=azure2 label="Alraune"];
 		hhewers03 [shape=note color=azure2 label="Vampyr"];
-	}
 
+		"Marie Corelli" -> mcorelli01;
+		"Marie Corelli" -> mcorelli02;
+		mcorelli01 [shape=note color=azure2 label="A Romance of Two Worlds"];
+		mcorelli02 [shape=note color=azure2 label="Ardath"];
+	}
+	
+	"Marie Corelli" -> "Oscar Wilde" [style=dotted];
+	mcorelli02 -> "Lord Dunsany" [style=dotted];
 	"Friedrich De La Motte" -> "Guy de Maupassant" [style=dotted];
 	"E.T.A. Hoffman" -> "Victor Hugo" [style=dotted];
 	"E.T.A. Hoffman" -> "Théophile Gautier" [style=dotted];
