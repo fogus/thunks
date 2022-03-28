@@ -366,12 +366,21 @@ digraph G {
 
 		"Katharine Tynan" -> ktynan01;
 		ktynan01 [shape=note color=azure2 label="The Death Spancel and Others"];
+
+		"Sax Rohmer" -> srohmer01;
+		"Sax Rohmer" -> srohmer02;
+		srohmer01 [shape=note color=azure2 label="Brood of the Witch-Queen"];
+		srohmer02 [shape=note color=azure2 label="The Dream Detective"];
+
+		"H.A. Manhood" -> hamanhood01;
+		hamanhood01 [shape=note color=azure2 label="Nightseed and other Tales"];
 	}   
 
 	"Walter de la Mare" -> "H.G. Wells" [style=dotted];
 	"Walter de la Mare" -> "Arthur Conan Doyle" [style=dotted];
 	"H.G. Wells" -> "M.P. Shiel" [style=dotted];
 	"Arthur Conan Doyle" -> "M.P. Shiel" [style=dotted];
+	"M.P. Shiel" -> "Sax Rohmer" [style=dotted];
 
 	subgraph cluster_masters {
 		node [style=filled];
@@ -471,6 +480,12 @@ digraph G {
 
 		"Ethel Mannin" -> emannin01;
 		emannin01 [shape=note color=azure2 label="Lucifer and the Child"];
+
+		"Manly Wade Wellman" -> mwwellman01;
+		"Manly Wade Wellman" -> mwwellman02;
+		mwwellman01 [shape=note color=azure2 label="Worse Things Waiting"];
+		mwwellman02 [shape=note color=azure2 label="Lonely Vigils"];
+
 	}
 
 	"Somerset Maugham" -> "Ethel Mannin" [style=dotted];
@@ -605,9 +620,15 @@ digraph G {
 	// exit genres
 	occult_detectives [shape=circle label="Occult Detectives"];
 	"L.T. Meade" -> occult_detectives [style=dashed label="John Bell"];
+	"Fitz James O'Brien" -> occult_detectives [style=dashed label="Harry Escott"];
+	"Joseph S. Le Fanu" -> occult_detectives [style=dashed label="Dr. Martin Hesselius"];
+	"Algernon Blackwood" -> occult_detectives [style=dashed label="Dr. John Silence"];
+	"William Hope Hodgson" -> occult_detectives [style=dashed label="Carnacki"];
+	"Sax Rohmer" -> occult_detectives [style=dashed label="Moris Klaw"];
+	"Manly Wade Wellman" -> occult_detectives [style=dashed label="John Thunstone"];
 
 	extreme_horror [shape=circle label="Extreme"];
-	"Poppy Z. Brite" -> splatterpunk [style=dashed label="Exquisite Corpse"];
+	"Poppy Z. Brite" -> extreme_horror [style=dashed label="Exquisite Corpse"];
 
 	splatterpunk [shape=circle label="Splatterpunk"];
 	"Michael Shea" -> splatterpunk [style=dashed label="The Autopsy"];
