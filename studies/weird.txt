@@ -45,6 +45,7 @@ digraph G {
 
 	radcliffe01 -> "Lord Byron" [style=dotted];
 	"Horace Walpole" -> "Anna Barbauld" [style=dotted dir=back label="popularized"];
+	"Lord Byron" -> "Mary MacLane" [style=dotted];
 
 	subgraph cluster_gothic {
 		node [style=filled];
@@ -134,6 +135,7 @@ digraph G {
 	"Thomas Moore" -> "H.G. Wells" [style=dotted];
 	"Thomas Moore" -> "Louis Stevenson" [style=dotted];
 	"Matthew Lewis" -> "E.T.A. Hoffman" [style=dotted];
+	"Emily Bronte" -> "Mary MacLane" [style=dotted];
 	
 	subgraph cluster_spectral {
 		node [style=filled];
@@ -195,6 +197,8 @@ digraph G {
 		poe03 [shape=note color=azure2 label="The Raven and\nOther Poems"];
 	}
 
+	"Edgar Allen Poe" -> "Mary MacLane" [style=dotted];
+	
 	subgraph cluster_weirdusa {
 		node [style=filled];
 		label = "Weird America";
@@ -336,6 +340,32 @@ digraph G {
 		"Oliver Onions" -> oonions02;
 		oonions01 [shape=note color=azure2 label="Widdershins"];
 		oonions02 [shape=note color=azure2 label="Beckoning Fair One"];
+
+		"Lucy Boston" -> lboston01;
+		lboston01 [shape=note color=azure2 label="Curfew & Other Eerie Tales"];
+
+		"B.M. Croker" -> bmcroker01;
+		bmcroker01 [shape=note color=azure2 label="Number Ninety & Other Ghost Stories"];
+
+		"Clotilde Graves" -> cgraves01;
+		cgraves01 [shape=note color=azure2 label="A Vanished Hand and Others"];
+
+		"Dorothy Macardle" -> dmacardle01;
+		dmacardle01 [shape=note color=azure2 label="Earth-Bound and Other Supernatural Tales"];
+
+		"Somerset Maugham" -> maugham01;
+		maugham01 [shape=note color=azure2 label="The Magician"];
+
+		"L.T. Meade" -> ltmeade01;
+		"L.T. Meade" -> ltmeade02;
+		ltmeade01 [shape=note color=azure2 label="Eyes of Terror and Other Dark Adventures"];
+		ltmeade02 [shape=note color=azure2 label="Master of Mysteries"];
+
+		"Rosa Mulholland" -> rmulholland01;
+		rmulholland01 [shape=note color=azure2 label="Not to Be Taken at Bed-Time & Other Strange Stories"];
+
+		"Katharine Tynan" -> ktynan01;
+		ktynan01 [shape=note color=azure2 label="The Death Spancel and Others"];
 	}   
 
 	"Walter de la Mare" -> "H.G. Wells" [style=dotted];
@@ -379,6 +409,8 @@ digraph G {
 		mrjames03 [shape=note color=azure2 label="A Thin Ghost"];
 	}
 
+	"M.R. James" -> "Lucy Boston";
+	
 	subgraph cluster_hpl {
 		node [style=filled];
 		label = "Lovecraft";
@@ -436,8 +468,12 @@ digraph G {
 
 		"C.M. Eddy Jr." -> cmeddy01;
 		cmeddy01 [shape=note color=azure2 label="The Loved Dead"];
+
+		"Ethel Mannin" -> emannin01;
+		emannin01 [shape=note color=azure2 label="Lucifer and the Child"];
 	}
 
+	"Somerset Maugham" -> "Ethel Mannin" [style=dotted];
 	"Robert E. Howard" -> "Gary Gygax" [style=dotted];
 	"Fritz Leiber" -> "Gary Gygax" [style=dotted];
 	"H.P. Lovecraft" -> "Gary Gygax" [style=dotted];
@@ -467,8 +503,13 @@ digraph G {
 		"J.G. Ballard" -> jgballard02;
 		jgballard01 [shape=note color=azure2 label="Crash"];
 		jgballard02 [shape=note color=azure2 label="The Crystal World"];
+
+		"Joyce Carol Oates" -> jcoates01;
+		jcoates [shape=note color=azure2 label="The Ruins of Contracoeur and Other Presences"];
 	}
 
+	"Franz Kafka" -> "Joyce Carol Oates" [style=dotted];
+	
 	subgraph cluster_prenewweird {
 		node [style=filled];
 		label = "Pre New Weird";
@@ -488,6 +529,15 @@ digraph G {
 		
 		"Poppy Z. Brite" -> pzbrite01;
 		pzbrite01 [shape=note color=azure2 label="Wormwood"];
+
+		"Michael Shea" -> mshea01;
+		"Michael Shea" -> mshea02;
+		"Michael Shea" -> mshea03;
+		"Michael Shea" -> mshea04;
+		mshea01 [shape=note color=azure2 label="The Color Out of Time"];
+		mshea02 [shape=note color=azure2 label="Polyphemus"];
+		mshea03 [shape=note color=azure2 label="The Autopsy and Other Mythos Tales"];
+		mshea04 [shape=note color=azure2 label="Copping Squid and Other Mythos Tales"];
 		
 		"Mark Z. Danielewski" -> mzd01;
 		mzd01 [shape=note color=azure2 label="House of Leaves"];
@@ -507,6 +557,9 @@ digraph G {
 		blumley01 [shape=note color=azure2 label="Beneath the Moors"];
 	}
 
+	"H.P. Lovecraft" -> "Michael Shea" [style=dotted];
+	"Jack Vance" -> "Michael Shea" [style=dotted];
+	
 	subgraph cluster_newweird {
 		node [style=filled];
 		label = "New Weird";
@@ -548,4 +601,14 @@ digraph G {
 	"Ramsey Campbell" -> "Laird Barron" [ltail=cluster_posthpl lhead=cluster_prenewweird];
 	"J.G. Ballard" -> "China Mieville" [ltail=cluster_posthpl lhead=cluster_newweird];
 	"H.P. Lovecraft" -> "China Mieville" [ltail=cluster_hpl lhead=cluster_newweird];
+
+	// exit genres
+	occult_detectives [shape=circle label="Occult Detectives"];
+	"L.T. Meade" -> occult_detectives [style=dashed label="John Bell"];
+
+	extreme_horror [shape=circle label="Extreme"];
+	"Poppy Z. Brite" -> splatterpunk [style=dashed label="Exquisite Corpse"];
+
+	splatterpunk [shape=circle label="Splatterpunk"];
+	"Michael Shea" -> splatterpunk [style=dashed label="The Autopsy"];
 }
