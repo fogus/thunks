@@ -11,7 +11,13 @@
 - A gap between the haves and have-nots.
 - Illicit jobs (for or against the ruling regimes).
 - Cybernetics, robotics, AI.
+- Dystopia - "a speculative situation where the absolute minority of people habitually experience hope and joy."
 - Dark plots and rare happy endings.
+
+#+BEGIN_QUOTE
+Science fiction should turn its back on space, on interstellar travel, extra-terrestrial life forms, (and) galactic wars.
+-- J.G. Ballard
+#+END_QUOTE
 
 ** History
 
@@ -42,10 +48,12 @@
 |  1968 | Virtual Reality               | origin        | graphics      | Ivan Sutherland                         | The Sword of Damocles                                                    |                                                         |
 |  1968 | Dystopia                      | proto         | fiction       | John Brunner                            | /Stand on Zanzibar/                                                      |                                                         |
 |  1969 | ARPANET                       | origin        | net           | ARPA                                    | NPL network, ARPANET, SITA HLN                                           |                                                         |
+|  1970 | Dystopia                      | proto         | fiction       | J.G. Ballard                            | /The Atrocity Exhibit/                                                   |                                                         |
 |  1970 | Electronica                   | inspiration   | music         | Kraftwerk                               | s/t album                                                                |                                                         |
 |  1970 | Rampant AI                    | proto         | film          | ---                                     | /Colossus: The Forbin Project/                                           |                                                         |
 |  1973 | Rampant AI                    | proto         | film          | Michael Crichton                        | /Westworld/                                                              |                                                         |
 |  1973 | Corporate Reign               | proto         | fiction       | Tiptree (Sheldon)                       | /The Girl Who Was Plugged In/                                            |                                                         |
+|  1973 | Sexual Fetishism              | proto         | fiction       | J.G. Ballard                            | /Crash/                                                                  |                                                         |
 |  1975 | Hacking, Dystopia             | proto         | fiction       | John Brunner                            | /The Shockwave Rider/                                                    |                                                         |
 |  1976 | Gritty Sci-Fi                 | proto         | comics        | Moebius, O'Bannon                       | /The Long Tomorrow/ in Metal Hurlant                                     |                                                         |
 |  1977 | Gritty Sci-Fi                 | proto         | comics        | John Wagner                             | /2000 AD/, /Judge Dredd/                                                 |                                                         |
@@ -54,6 +62,7 @@
 |  1978 | Post-punk                     | inspiration   | music         | Devo                                    | Q: Are We Not Men?                                                       |                                                         |
 |  1979 | Electronica                   | inspiration   | music         | Tubeway Army                            | Replicas                                                                 |                                                         |
 |  1980 | Usenet                        | origin        | community     | Tom Truscott, Jim Ellis                 | decentralized control                                                    |                                                         |
+|  1981 | Dystopia                      | inspiration   | politics      | Ronald Reagan                           | 40th President of the United States                                      | Reagan’s presidency put the grit in Gibson's dystopia   |
 |  1981 | Hyperreality                  | inspiration   | philosophy    | Jean Baudrillard                        | /Simulacra and Simulation/                                               |                                                         |
 |  1981 | Industrial                    | inspiration   | music         | Einstürzende Neubauten                  | Kollaps                                                                  |                                                         |
 |  1981 | Cyberspace                    | proto         | fiction       | Vinge                                   | /True Names/                                                             |                                                         |
@@ -121,6 +130,7 @@
 |  2003 | Near Future, Nowpunk          | postcyberpunk | fiction       | William Gibson                          | /Pattern Recognition/                                                    |                                                         |
 |  2003 | Dystopia, Corporate Rule      | postcyberpunk | fiction       | Max Barry                               | /Jennifer Government/                                                    |                                                         |
 |  2003 | Simulation Hypothesis         | inspiration   | philosophy    | Nick Bostrom                            | /Are You Living in a Computer Simulation?/                               |                                                         |
+|  2009 | Cryptocurrency                | inspiration   | economics     | Satoshi Nakamoto                        | /Bitcoin: A Peer-to-Peer Electronic Cash System/                         |                                                         |
 |  2009 | Capitalist Realism            | inspiration   | philosophy    | Mark Fisher                             | /Capitalist Realism: Is There No Alternative?/                           |                                                         |
 
 ** Contributor(s)
