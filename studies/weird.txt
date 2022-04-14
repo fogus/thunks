@@ -493,6 +493,8 @@ digraph G {
 		mwwellman01 [shape=note color=azure2 label="Worse Things Waiting"];
 		mwwellman02 [shape=note color=azure2 label="Lonely Vigils"];
 
+		"Jospeh Payne Brennan" -> jpbrennan01;
+		jpbrennan01 [shape=note color=azure2 label="Nine Horrors and a Dream"];
 	}
 
 	"Somerset Maugham" -> "Ethel Mannin" [style=dotted];
@@ -577,6 +579,11 @@ digraph G {
 		
 		"Brian Lumley" -> blumley01;
 		blumley01 [shape=note color=azure2 label="Beneath the Moors"];
+
+		"T.E.D. Klein" -> tedklein01;
+		"T.E.D. Klein" -> tedklein02;
+		tedklein01 [shape=note color=azure2 label="The Ceremonies"];
+		tedklein02 [shape=note color=azure2 label="Dark Gods"];
 	}
 
 	"H.P. Lovecraft" -> "Michael Shea" [style=dotted];
@@ -633,6 +640,7 @@ digraph G {
 	"William Hope Hodgson" -> occult_detectives [style=dashed label="Carnacki"];
 	"Sax Rohmer" -> occult_detectives [style=dashed label="Moris Klaw"];
 	"Manly Wade Wellman" -> occult_detectives [style=dashed label="John Thunstone"];
+	"Jospeh Payne Brennan" -> occult_detectives [style=dashed label="Lucius Leffing"];
 
 	extreme_horror [shape=circle label="Extreme"];
 	"Poppy Z. Brite" -> extreme_horror [style=dashed label="Exquisite Corpse"];
