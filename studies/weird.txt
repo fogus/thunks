@@ -172,6 +172,9 @@ digraph G {
 		"Marie Corelli" -> mcorelli02;
 		mcorelli01 [shape=note color=azure2 label="A Romance of Two Worlds"];
 		mcorelli02 [shape=note color=azure2 label="Ardath"];
+
+		"Ivan Turgenev" -> iturgenev01;
+		iturgenev01 [shape=note color=azure2 label="Bezhin Lea"];
 	}
 	
 	"Marie Corelli" -> "Oscar Wilde" [style=dotted];
@@ -190,6 +193,8 @@ digraph G {
 
 	"Hanns Ewers" -> "Gustav Meyrink" [style=dotted];
 	"Hanns Ewers" -> "S. Ansky" [style=dotted];
+
+	iturgenev01 -> "Robert Aikman" [style=dotted];
 	
 	subgraph cluster_poe {
 		node [style=filled];
@@ -381,6 +386,9 @@ digraph G {
 
 		"H.A. Manhood" -> hamanhood01;
 		hamanhood01 [shape=note color=azure2 label="Nightseed and other Tales"];
+
+		"Robert Hichens" -> rhichens01;
+		rhichens01 [shape=note color=azure2 label="Tongues of Conscience"];
 	}   
 
 	"Walter de la Mare" -> "H.G. Wells" [style=dotted];
@@ -388,6 +396,7 @@ digraph G {
 	"H.G. Wells" -> "M.P. Shiel" [style=dotted];
 	"Arthur Conan Doyle" -> "M.P. Shiel" [style=dotted];
 	"M.P. Shiel" -> "Sax Rohmer" [style=dotted];
+	"Oliver Onions" -> "Robert Hichens" [style=dotted];
 
 	subgraph cluster_masters {
 		node [style=filled];
@@ -648,3 +657,11 @@ digraph G {
 	splatterpunk [shape=circle label="Splatterpunk"];
 	"Michael Shea" -> splatterpunk [style=dashed label="The Autopsy"];
 }
+
+// Robert Aikman slyly teased that there were 6 masterpieces in the ghost story genre, but only listed three:
+// - The Beckoning Fair One by Oliver Onions
+// - The Wendigo by Algernon Blackwood
+// - How Love Came to Professor Guildea by Robert Hichens
+//  ... the only other story that he actively named as a masterpiece was
+// - Bezhin Lea by Ivan Turgenev
+//  ... the remaining two may never be known.
