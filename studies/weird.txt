@@ -222,8 +222,8 @@ digraph G {
 		"Fitz James O'Brien" -> fjobrien01;
 		fjobrien01 [shape=note color=azure2 label="The Diamond Lens"];
 
-		"James O'Brien" -> "Robert W. Chambers";
-		"James O'Brien" -> "Ralph Cram";
+		"Fitz James O'Brien" -> "Robert W. Chambers";
+		"Fitz James O'Brien" -> "Ralph Cram";
 
 		"Robert W. Chambers" -> rwchambers01;
 		rwchambers01 [shape=note color=azure2 label="The King in Yellow"];
@@ -504,17 +504,42 @@ digraph G {
 
 		"Jospeh Payne Brennan" -> jpbrennan01;
 		jpbrennan01 [shape=note color=azure2 label="Nine Horrors and a Dream"];
+
+		"Pulp Magazines";
 	}
 
 	"Somerset Maugham" -> "Ethel Mannin" [style=dotted];
 	"Robert E. Howard" -> "Gary Gygax" [style=dotted];
 	"Fritz Leiber" -> "Gary Gygax" [style=dotted];
 	"H.P. Lovecraft" -> "Gary Gygax" [style=dotted];
+
+	subgraph cluster_thegroup {
+		node [style=filled];
+		label = "'The Group'";
+		color=blue;
+
+		"Digest-sized SciFi Fantasy Magazines";
+
+		"Ray Bradbury" -> rbradbury01;
+		rbradbury01 [shape=note color=azure2 label="Dark Carnival"];
+		
+		"Richard Matheson" -> rmatheson01;
+		rmatheson01 [shape=note color=azure2 label="Shock series 1-3"];
+		
+		"Charles Beaumont" -> cbeaumont01;
+		cbeaumont01 [shape=note color=azure2 label="The Hunger and\nOther Stories"];
+		
+		"George Clayton Johnson";
+		"William F. Nolan";
+		"John Tomerlin";
+	}
 	
 	subgraph cluster_posthpl {
 		node [style=filled];
 		label = "Post Lovecraft";
 		color=blue;
+
+		"Social Realism";
 
 		"Robert Aickman" -> raickman01;
 		"Robert Aickman" -> raickman02;
@@ -639,6 +664,8 @@ digraph G {
 	"Ramsey Campbell" -> "Laird Barron" [ltail=cluster_posthpl lhead=cluster_prenewweird];
 	"J.G. Ballard" -> "China Mieville" [ltail=cluster_posthpl lhead=cluster_newweird];
 	"H.P. Lovecraft" -> "China Mieville" [ltail=cluster_hpl lhead=cluster_newweird];
+	"Pulp Magazines" -> "Digest-sized SciFi Fantasy Magazines" [ltail=cluster_weirdtales lhead=cluster_thegroup];
+	"Ray Bradbury" -> "Social Realism" [ltail=cluster_thegroup lhead=cluster_posthpl];
 
 	// exit genres
 	occult_detectives [shape=circle label="Occult Detectives"];
