@@ -1,0 +1,6 @@
+* Quirky computing books of the day
+
+** <2022-06-21 Tue>
+/Functional Programming and Its Applications/ by Darlington, Henderson, and Turner
+
+TWEET: 
