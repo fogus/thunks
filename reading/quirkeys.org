@@ -1,5 +1,19 @@
 * Quirky computing books
 
+** <2022-06-22 Wed>
+/Functional Programming: Application and Implementation/ by Peter Henderson
+
+Inspired by a question on my last book tweet, I thought I'd show another FP offering. This is an original work by Henderson that focuses the discussion around a language called LispKit Lisp, an impl targetting an SECD machine.
+
+The book delves into the implementation of LispKit Lisp and provides a mountain of fine details and source code to facilitate other implementations. It's a good book but one that's on the bubble in my personal library.
+
+https://en.wikipedia.org/wiki/Lispkit_Lisp
+
+- TWEET: https://twitter.com/fogus/status/
+- READ: https://archive.org/details/functionalprogra0000hend
+- BUY: [[https://www.amazon.com/Functional-Programming-Application-Implementation-Henderson/dp/0133315797/?tag=fogus-20][currently readily available]]
+
+
 ** <2022-06-21 Tue>
 /Functional Programming and Its Applications/ by Darlington, Henderson, and Turner
 
@@ -8,5 +22,5 @@ This particular book is on the bubble for my collection as much of what it conta
 Of particular interest is Henderson's paper "Purely Functional Operating Systems" which was difficult to find the last I checked.
 
 - TWEET: https://twitter.com/fogus/status/1539325385946562560
-- FREE: n/a
+- READ8: n/a
 - BUY: [[https://www.amazon.com/gp/product/0521245036/?tag=fogus-20][somewhat scarce these days]]
