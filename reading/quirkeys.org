@@ -9,7 +9,7 @@ The book delves into the implementation of LispKit Lisp and provides a mountain 
 
 One fine note is that I love when these old books had ads for other books in the same thematic line. Prentice Hall at the time was great at this and led me to many a book that I wouldn't have found otherwise.
 
-- TWEET: https://twitter.com/fogus/status/
+- TWEET: https://twitter.com/fogus/status/1539663473516244992
 - READ: https://archive.org/details/functionalprogra0000hend
 - BUY: [[https://www.amazon.com/Functional-Programming-Application-Implementation-Henderson/dp/0133315797/?tag=fogus-20][currently readily available]]
 
