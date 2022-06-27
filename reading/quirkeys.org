@@ -1,5 +1,17 @@
 * Quirky computing books
 
+** <2022-06-27 Mon>
+/Electronic Calculators/ by H. Edward Roberts, then president of MITS, Inc.
+
+In 1974, electronic calculators were the maker culture focal point even after the release of the MITS Altar 8800. For many electronics hobbyists, the calculator was financially and conceptually in reach. This book may have been an invaluable resource for folks trying to build their own.
+
+For calculator enthusiasts this book has a lot to offer. From history, to industry standards of the time, to I/O considerations, there's a lot to take in. It's hard to say if one could start from zero and end up with a functioning device -- my gut says no.
+
+- TWEET: https://twitter.com/fogus/status/1541480499281121284
+- READ: n/a
+- BUY: [[https://www.amazon.com/Electronic-Calculators-H-Edward-Roberts/dp/0672210398/?tag=fogus-20][currently difficult to find]]
+
+
 ** <2022-06-22 Wed>
 /Functional Programming: Application and Implementation/ by Peter Henderson
 
@@ -12,7 +24,6 @@ One fine note is that I love when these old books had ads for other books in the
 - TWEET: https://twitter.com/fogus/status/1539663473516244992
 - READ: https://archive.org/details/functionalprogra0000hend
 - BUY: [[https://www.amazon.com/Functional-Programming-Application-Implementation-Henderson/dp/0133315797/?tag=fogus-20][currently readily available]]
-
 
 ** <2022-06-21 Tue>
 /Functional Programming and Its Applications/ by Darlington, Henderson, and Turner
