@@ -5,7 +5,7 @@
 
 The inimitable @mfikes sent a copy of this astonishing book last week and I've been gobsmacked by it ever since. This books presents a boatload of mathematical functions described as series of keystrokes. As a minor calculator dweeb there is much to learn here!
 
-- TWEET: https://twitter.com/fogus/status/
+- TWEET: https://twitter.com/fogus/status/1544765860711206915
 - READ:  https://archive.org/details/algorithmsforrpn0000ball
 - BUY:   [[https://www.amazon.com/Algorithms-RPN-Calculators-John-Ball/dp/B000PS56JW/?tag=fogus-20][currently difficult to find]]
 
