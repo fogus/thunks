@@ -1,5 +1,14 @@
 * Quirky computing books
 
+** <2022-07-06 Wed>
+/Algorithms for RPN Calculators/ by John Ball
+
+The inimitable @mfikes sent a copy of this astonishing book last week and I've been gobsmacked by it ever since. This books presents a boatload of mathematical functions described as series of keystrokes. As a minor calculator dweeb there is much to learn here!
+
+- TWEET: https://twitter.com/fogus/status/
+- READ:  https://archive.org/details/algorithmsforrpn0000ball
+- BUY:   [[https://www.amazon.com/Algorithms-RPN-Calculators-John-Ball/dp/B000PS56JW/?tag=fogus-20][currently difficult to find]]
+
 ** <2022-06-27 Mon>
 /Electronic Calculators/ by H. Edward Roberts, then president of MITS, Inc.
 
@@ -10,7 +19,6 @@ For calculator enthusiasts this book has a lot to offer. From history, to indust
 - TWEET: https://twitter.com/fogus/status/1541480499281121284
 - READ: n/a
 - BUY: [[https://www.amazon.com/Electronic-Calculators-H-Edward-Roberts/dp/0672210398/?tag=fogus-20][currently difficult to find]]
-
 
 ** <2022-06-22 Wed>
 /Functional Programming: Application and Implementation/ by Peter Henderson
