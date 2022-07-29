@@ -7,7 +7,7 @@ About the quirkiest computing book that you can imagine. It describes the implem
 
 That said, the discussion has many lacuna, making the actual realization of the described system exceedingly difficult.
 
-- TWEET: https://twitter.com/fogus/status/
+- TWEET: https://twitter.com/fogus/status/1553013447205560320
 - READ:  https://archive.org/details/designingprogram0000town
 - BUY:   [[https://www.amazon.com/Designing-Programming-Personal-Expert-Systems/dp/0830606920/?tag=fogus-20][currently NOT difficult to find]]
 
