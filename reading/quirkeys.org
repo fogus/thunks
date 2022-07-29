@@ -5,7 +5,7 @@
 
 About the quirkiest computing book that you can imagine. It describes the implementation of expert systems in Forth by building a Lisp-like substrate which is then used to build a Prolog that is eventually used to implement the production rules system. It's a near perfect book for me. 
 
-That said, the discussion has many lacuna, making the actual realization of the described system exceedingly difficult.
+That said, the discussion has many lacunae, making the actual realization of the described system exceedingly difficult.
 
 - TWEET: https://twitter.com/fogus/status/1553013447205560320
 - READ:  https://archive.org/details/designingprogram0000town
