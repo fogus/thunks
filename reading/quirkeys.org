@@ -1,5 +1,17 @@
 * Quirky computing books
 
+** <2022-07-29 Fri>
+/Designing & Programming Personal Expert Systems/ by Townsend Feucht
+
+About the quirkiest computing book that you can imagine. It describes the implementation of expert systems in Forth by building a Lisp-like substrate which is then used to build a Prolog that is eventually used to implement the production rules system. It's a near perfect book for me. 
+
+That said, the discussion has many lacuna, making the actual realization of the described system exceedingly difficult.
+
+- TWEET: https://twitter.com/fogus/status/
+- READ:  https://archive.org/details/designingprogram0000town
+- BUY:   [[https://www.amazon.com/Designing-Programming-Personal-Expert-Systems/dp/0830606920/?tag=fogus-20][currently NOT difficult to find]]
+
+
 ** <2022-07-06 Wed>
 /Algorithms for RPN Calculators/ by John Ball
 
