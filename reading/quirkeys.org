@@ -3,7 +3,7 @@
 ** <2022-08-12 Fri>
 /Blackboard Systems/ by Engelmore & Morgan
 
-Earlier in my career I did a lot of work in expert systems and blackboards and this #quirkey book has followed me around ever since. You don't hear much about blackboard systems these days but for a time I thought that [[https://www.infoworld.com/article/2076533/make-room-for-javaspaces--part-1.html][JavaSpaces]] could be big... alas. 
+Earlier in my career I did a lot of work in expert systems and blackboards and this #quirkey book has followed me around ever since. You don't hear much about blackboard systems these days but for a time I thought that [[https://www.infoworld.com/article/2076533/make-room-for-javaspaces--part-1.html][JavaSpaces]] could be big... alas. The book is chock full of 80s distributed thinking and worth a perusal. I guarantee that some of the problems that you're encountering in your systems today were pondered over and solved then.
 
 - TWEET: https://twitter.com/fogus/status/1558070085117419521
 - READ:  https://archive.org/details/blackboardsystem0000unse
