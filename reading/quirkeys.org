@@ -1,5 +1,15 @@
 * Quirky computing books
 
+** <2022-08-12 Fri>
+/Blackboard Systems/ by Engelmore & Morgan
+
+Earlier in my career I did a lot of work in expert systems and blackboards and this #quirkey book has followed me around ever since. You don't hear much about blackboard systems these days but for a time I thought that JavaSpaces could be big... alas.
+
+- TWEET: https://twitter.com/fogus/status/
+- READ:  https://archive.org/details/blackboardsystem0000unse
+- BUY:   [[https://www.amazon.com/Blackboard-Systems-Insight-Artificial-Intelligence/dp/0201174316/?tag=fogus-20][currently NOT difficult to find]]
+
+
 ** <2022-07-29 Fri>
 /Designing & Programming Personal Expert Systems/ by Townsend Feucht
 
