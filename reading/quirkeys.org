@@ -5,7 +5,7 @@
 
 An interesting lang book in that Lucid is incrementally motivated by, and built from ISWIM into a dataflow model with identity histories. While not for the faint of heart, its incremental flow (ha!) helps motivated readers build gradual understanding.
 
-The book is dense and I suspect one could use it to build an implementation of Lucid, though I've never tried myself. The references are a gold mine and you could spend years delving the citations. All lessons learned along the way would be directly applicable to modern systems.
+The book is dense and I suspect one could use it to build an implementation of Lucid, though I've never tried myself. The references are a gold mine and you could spend years delving the citations. All lessons learned along the way would be directly applicable to modern systems. The problem currently is that computerists have very little interest nor incentive to dive into the motivations and problems that something like Lucid was attempting to address. Instead, computerists build systems that /seemingly work/ and masochitically maintain and /enhance/ them without a lucid vision in mind.
 
 - TWEET:  https://twitter.com/fogus/status/1561752106394066944
 - READ:   https://archive.org/details/luciddataflowpro00wadg_0
