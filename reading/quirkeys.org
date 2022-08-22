@@ -70,5 +70,5 @@ This particular book is on the bubble for my collection as much of what it conta
 Of particular interest is Henderson's paper "Purely Functional Operating Systems" which was difficult to find the last I checked.
 
 - TWEET: https://twitter.com/fogus/status/1539325385946562560
-- READ8: n/a
+- READ: n/a
 - BUY: [[https://www.amazon.com/gp/product/0521245036/?tag=fogus-20][somewhat scarce these days]]
