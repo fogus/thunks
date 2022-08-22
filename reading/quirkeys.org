@@ -1,5 +1,15 @@
 * Quirky computing books
 
+** <2022-08-22 Mon>
+/Lucid, the Dataflow PL/ by Wadge & Ashcroft
+
+An interesting lang book in that Lucid is incrementally motivated by, and built from ISWIM into a dataflow model with identity histories. While not for the faint of heart, its incremental flow (ha!) helps motivated readers build gradual understanding.
+
+- TWEET:  https://twitter.com/fogus/status/
+- READ:   https://archive.org/details/luciddataflowpro00wadg_0
+- BUY:    [[https://www.amazon.com/Dataflow-Programming-Language-Studies-Processing/dp/0127296506/?tag=fogus-20][currently VERY difficult to find]]
+- SOURCE: https://code.google.com/archive/p/plucid/
+
 ** <2022-08-12 Fri>
 /Blackboard Systems/ by Engelmore & Morgan
 
@@ -8,8 +18,6 @@ Earlier in my career I did a lot of work in expert systems and blackboards and t
 - TWEET: https://twitter.com/fogus/status/1558070085117419521
 - READ:  https://archive.org/details/blackboardsystem0000unse
 - BUY:   [[https://www.amazon.com/Blackboard-Systems-Insight-Artificial-Intelligence/dp/0201174316/?tag=fogus-20][currently NOT difficult to find]]
-
-
 ** <2022-07-29 Fri>
 /Designing & Programming Personal Expert Systems/ by Townsend Feucht
 
@@ -20,7 +28,6 @@ That said, the discussion has many lacunae, making the actual realization of the
 - TWEET: https://twitter.com/fogus/status/1553013447205560320
 - READ:  https://archive.org/details/designingprogram0000town
 - BUY:   [[https://www.amazon.com/Designing-Programming-Personal-Expert-Systems/dp/0830606920/?tag=fogus-20][currently NOT difficult to find]]
-
 
 ** <2022-07-06 Wed>
 /Algorithms for RPN Calculators/ by John Ball
