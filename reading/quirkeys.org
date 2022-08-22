@@ -5,7 +5,9 @@
 
 An interesting lang book in that Lucid is incrementally motivated by, and built from ISWIM into a dataflow model with identity histories. While not for the faint of heart, its incremental flow (ha!) helps motivated readers build gradual understanding.
 
-- TWEET:  https://twitter.com/fogus/status/
+The book is dense and I suspect one could use it to build an implementation of Lucid, though I've never tried myself. The references are a gold mine and you could spend years delving the citations. All lessons learned along the way would be directly applicable to modern systems.
+
+- TWEET:  https://twitter.com/fogus/status/1561752106394066944
 - READ:   https://archive.org/details/luciddataflowpro00wadg_0
 - BUY:    [[https://www.amazon.com/Dataflow-Programming-Language-Studies-Processing/dp/0127296506/?tag=fogus-20][currently VERY difficult to find]]
 - SOURCE: https://code.google.com/archive/p/plucid/
