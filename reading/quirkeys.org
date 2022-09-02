@@ -1,5 +1,14 @@
 * Quirky computing books
 
+** <2022-09-02 Fri>
+/System Design from Provably Correct Constructs/ by Martin
+
+Continuing on my Margaret Hamilton studies, I thought I'd share this book from 1984 that highlights and builds on her system design principles.
+
+- TWEET:  https://twitter.com/fogus/status/1565765357817700352
+- READ:   https://archive.org/details/systemdesignfrom00mart/page/40/mode/2up
+- BUY:    [[https://www.amazon.com/SYSTEM-DESIGN-PROVABLY-CORRECT-CONSTRUCTS/dp/B000JODG1M/?tag=fogus-20][not many copies out there at the moment]]
+
 ** <2022-08-22 Mon>
 /Lucid, the Dataflow PL/ by Wadge & Ashcroft
 
@@ -11,7 +20,6 @@ The book is dense and I suspect one could use it to build an implementation of L
 - READ:   https://archive.org/details/luciddataflowpro00wadg_0
 - BUY:    [[https://www.amazon.com/Dataflow-Programming-Language-Studies-Processing/dp/0127296506/?tag=fogus-20][currently VERY difficult to find]]
 - SOURCE: https://code.google.com/archive/p/plucid/
-
 ** <2022-08-12 Fri>
 /Blackboard Systems/ by Engelmore & Morgan
 
