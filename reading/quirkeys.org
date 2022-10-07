@@ -1,5 +1,13 @@
 * Quirky computing books
 
+** <2022-10-07 Fri>
+/Forth Fundamentals v2/ by McCabe
+
+This is a book from a bygone era when language references were not readily available and even those available were ponderous at best. The book details the words for both fig-FORTH and FORTH-79 and even provides colon definitions for many. This is likely less interesting for even modern Forth programmers, but for Forth-impl dabblers like myself it's a treasure trove.
+
+- TWEET:  https://twitter.com/fogus/status/1578382409694953472
+- BUY:    [[https://www.amazon.com/gp/product/0880560916/?tag=fogus-20][copies drying up]]
+
 ** <2022-09-02 Fri>
 /System Design from Provably Correct Constructs/ by Martin
 
