@@ -1,0 +1,194 @@
+-*- mode: org -*-
+
+* Languages Zoo
+
+As long as I can remember I have loved the process of defining, designing, and implementing my own programming languages. I've created so many languages that you could say that I've created something of a [[https://plzoo.andrej.com/][programming languages zoo]]. Below you'll find a list of the languages that I've created over the years and those that I'm thinking about currently.
+
+** Active projects
+
+| Project      | Status      | Synopsis                                                | Impl langs         | Next Goals                   |
+|--------------+-------------+---------------------------------------------------------+--------------------+------------------------------|
+| Clojure      | maintainer  | The Clojure programming language                        | Java + Clojure     | [ ] keep rockin'             |
+| Cribbaj      | [[https://github.com/fogus/thunks/blob/main/langdev/forth.txt][delimiting]]  | An implementation of Forth with IDE and VM              | C + Ruby + Cribbaj | [ ] kernel-forth definition  |
+| Folog        | prototyped  | An Prolog implementation                                | Common Lisp        | [ ] port to CLJ              |
+| Quincunx     | prototyped  | A small functional language with FEXPRs                 | Clojure -> C       | [ ] read and annotate [[https://web.cs.wpi.edu/~jshutt/kernel.html][Shutt]]  |
+| Incal        | documenting | Minimal implementation of the J language                | C                  | [ ] org-mode babel           |
+| Ix           | dev         | An OO language with production rules                    | C + Ix             | [ ] test harness [ ] vectors |
+| Juxt         | prototyped  | A functional concatenative language                     | Java + Juxt        | [ ] reader impl              |
+| Lithp        | [[https://github.com/fogus/lithp][released]]    | An implementation of McCarthy's original LISP w/ macros | Python + Lithp     | [ ] perpetual hacking        |
+| Minderbinder | prototyped  | An RPN command line calculator with units of measure    | Python / Clojure   | [ ] define uom specs         |
+| µPy          | dev         | A very small implementation of Python                   | C + Python         | [ ] decorators               |
+
+*** Clojure
+
+I've been a full-time member of the [[https://www.clojure.org][Clojure]] core team [[https://blog.fogus.me/2021/01/15/clojure-core/][for two-years]] and have worked to maintain, fix, and enhance the language and ecosystem. I certainly would not say that Clojure is "my" language, not even a little bit, but I have contributed enough to warrant mention. Perhaps one day when the Clojure history book is written I will get a paragraph.
+
+*** Cribbaj
+
+Cribbaj is a Forth implementation that's intended to start with the [[https://forth.sourceforge.net/standard/fst83/index.html][Forth-83]] spec and expand into a more modern and portable implementation. The ideas that I would like to explore with Cribbaj are meta-compilation, meta-programming, kernel-Forths, IDE design, and batteries-included language implementation. The historical precedents for Cribbaj include: [[https://en.wikipedia.org/wiki/KAMAS_(program)][KAMAS]], Forth-83, [[https://www.millermicro.com/mmsforth.html][MMSForth]], [[https://www.retrotechnology.com/memship/figforth_1802.html][FIG Forth]], and [[https://en.wikipedia.org/wiki/ColorForth][colorForth]].
+
+Some references that I'm using for design include:
+
+- [[https://www.forth.com/wp-content/uploads/2018/11/thinking-forth-color.pdf][Thinking Forth]] (pdf) by Brodie
+- [[https://www.amazon.com/Threaded-Interpretive-Languages-Design-Implementation/dp/007038360X/?tag=fogus-20][Threaded Interpretive Languages]] by Loeliger
+- [[https://www.amazon.com/Forth-Text-Reference-Prentice-Hall-Software/dp/0133263312/?tag=fogus-20][Forth: A Text and Reference]] by Kelly and Spies
+- [[https://archive.org/details/designingprogram0000town][Designing & Programming Personal Expert Systems]] by Townsend Feucht
+- [[https://www.amazon.com/Object-Oriented-Forth-Dick-Pountain/dp/0125635702?tag=fogus-20][Object-Oriented Forth: Implementation of Data Structures]] by Pountain
+- "[[https://www.youtube.com/watch?v=0PclgBd6_Zs][Programming a 144-computer chip to minimize power]]" by Chuck Moore
+- "[[https://www.bradrodriguez.com/papers/moving1.htm][Moving Forth]]" by Brad Rodriguez
+- "[[https://leonardschuetz.ch/blog/nan-boxing/][Dynamic Typing and NaN Boxing]]" by Loenard Schutz
+
+Some thoughts and ideas about the direction that I'll take Cribbaj is found in [[https://github.com/fogus/thunks/blob/main/langdev/forth.txt][my thunks repo]].
+
+*** Folog
+
+Folog started as a fork of Hideyuki Nakashima's [[https://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/lang/prolog/impl/prolog/ppicl/0.html][PPiCL]] -- an elegant and mind-warping little interpreter. I added extensions such that I could in turn implement a little LISP in the language but I have not taken it further. Eventually I would like to port the original logic to Clojure and occasionally hack on it toward that goal.
+
+*** Quincunx
+
+Quincunx is currently implemented as a mini interpreter written in Clojure. The purpose was to better understand [[https://en.wikipedia.org/wiki/Fexpr][FEXPRs]], and while I think that goal was achieved, it would be nice to take it further. The natural path is toward the Kernel language, but some study needs to happen on my part before I can proceed. I would like to create a small interpreter in C and explore simple GCs, but that it further in the future.
+
+Some references that I'm using for design include:
+
+- [[https://www.softwarepreservation.org/projects/LISP/book/LISP%201.5%20Programmers%20Manual.pdf][LISP 1.5 Programmer's Manual]] (pdf) by McCarthy, et al.
+- "vau-calculi and the theory of fexprs" by John Shutt
+- "The Theory of Fexprs is Trivial" by Mitchell Wand
+- [[http://fexpr.blogspot.com/][John Shutt's blog archive]]
+- "[[https://bernsteinbear.com/blog/small-objects/][Small objects and pointer tagging]] by Max Berstein
+
+*** Incal
+
+This started as the original C implementation, [[https://code.jsoftware.com/wiki/Essays/Incunabulum][J Incunabulum]] but I took the effort to translate the code into a style that fits my own style. Many similar efforts have since happened over the years but this one is mine. I would like to eventually make a literate version of this. 
+
+*** Ix
+
+Ix is a language that I've been hacking on for 20 years. The seed of Ix is found in [[https://www.clipsrules.net/][CLIPS]], especially in the COOL subsystem. The central conceit of Ix is this: [[https://leanpub.com/readevalprintlove004/read#leanpub-auto-production-rules-and-oop][can we mitigate the complexity of object-oriented programming by describing and scoping instance mutation in-terms of production rules]]?
+
+Some references that I'm using for design include:
+
+- [[https://www.amazon.com/exec/obidos/tg/detail/-/0534384471/?tag=fogus-20][Expert Systems: Principles and Programming]] by Giarratano and Riley
+- [[http://stephane.ducasse.free.fr/FreeBooks/BlueBook/Bluebook.pdf][Smalltalk-80: the language and its implementation]] (pdf) by Goldberg and Robson
+- [[https://www.cs.rit.edu/~ats/books/ooc.pdf][Object-oriented Programming with ANSI-C]] (pdf) by Axel-Tobias Schreiner
+- [[https://www.amazon.com/Semantic-Web-Working-Ontologist-Effective/dp/0123859654?tag=fogus-20][Semantic Web for the Working Ontologist]] by Deam Allemang
+- [[https://www.amazon.com/Efficient-Polymorphic-Springer-International-Engineering-ebook/dp/B000WNJ39E/?tag=fogus-20][Efficient Polymorphic Calls]] by Karel Driesen
+- "[[https://bitsavers.org/pdf/xerox/smalltalk/Smalltalk-72_Instruction_Manual_Mar76.pdf][Smalltalk-72 Instruction Manual]]" (pdf) by Goldberg and Kay
+- "Production Matching for Large Learning Systems" by Robert Doorenbos
+
+Ix has been rewritten no less than three times and has gone from a Smalltalk-like system to a Lisp-like system to something in-between. I will probably hack on this until I die... in fact, it might kill me.
+
+*** Juxt
+
+Juxt is very much inspired by [[https://hypercubed.github.io/joy/joy.html][Joy]] but I would like to incorporate some of the ideas in Clojure. A prototype was written in a weekend and allows code such as below:
+
+#+BEGIN_SRC
+/swoncat (A B : B A)! cat/
+/Y ($cons) swoncat $cons i/
+#+END_SRC
+
+The code above implements the Y combinator and if you know Joy then you'll understand that the functions ~cat~ and ~$cons~ are list manipulation operators. Indeed, Ix (like Joy) uses quotations as its lambda representation, which are simply lists that may or may not have some context attached to them. If I were to describe Juxt in one sentence it would be: a homoiconic, functional, stack-based, concatenative programming language with: lexical scope, closures, tail-recursion, a stack-effects mini-language, first-class environments, destructuring, modules, metaprogramming support, dynamic type checking, and Java interoperability. The simplicity of the language is such that the kernel was written in a weekend and further features like modules, recursion, lexical binding, and shuffle operators were written over time in Juxt.
+
+Some references that I'm using for design include:
+
+- "[[https://hypercubed.github.io/joy/html/j05cmp.html][Recursion Theory and Joy"]] by Manfred von Thun
+- "[[https://hypercubed.github.io/joy/html/j04alg.html][The Algebra of Joy]]" by Manfred von Thun
+- [[https://www.amazon.com/Arrows-Structures-Functors-Categorical-Imperative/dp/0120590603?tag=fogus-20][Arrows, Structures and Functors: The Categorical Imperative]] by Michael Arbib
+- [[https://www.amazon.com/Architecture-Computers-McGraw-Hill-Supercomputing-Processing/dp/0070355967?tag=fogus-20][The Architecture of Symbolic Computers]] by Peter Kogge
+- [[https://www.amazon.com/Mock-Mockingbird-Raymond-Smullyan/dp/0192801422/?tag=fogus-20][To Mock and Mockingbird]] by Smullyan
+- "Can Programming be liberated from the von Neumann Style?" by J.W. Backus
+- "Clean --- a Language for Functional Graph Rewriting" by van Leer and Plasmejer
+
+*** Lithp
+
+[[https://github.com/fogus/lithp][Lithp]] is an implementation of an interpreter for the original LISP as described by John McCarthy and the macro system described later by Timothy Hart. The interpreter implements the following seven functions:
+
+1.  ~atom~
+2.  ~car~
+3.  ~cdr~
+4.  ~cond~
+5.  ~cons~
+6.  ~eq~
+7.  ~quote~
+
+and also two special forms:
+
+1. ~label~
+2. ~lambda~
+
+Using these functions I also implemented a Lithp interpreter in Lithp itself that implements the same 9 features and also added a ~macro~ special form.
+
+*** Minderbinder
+
+Minderbinder started as a Clojure library of the same name providing unit of measure conversions. However, over time it took on a life of its own and has since morphed into a command line RPN calculator supporting bignums and unit of measure awareness. It's not a general solution yet and needs some work to be usable by someone other than myself.
+
+Some references that I'm using for design include:
+
+- [[https://frinklang.org/][The Frink Programming Language]]
+- [[https://archive.org/details/algorithmsforrpn0000ball][Algorithms for RPN Calculators]] by John Ball
+
+*** µPy
+
+µPy is a spike of [[http://www.tinypy.org/][tinypy]] by Phil Hassey that I at one time considered for the front end to Ix (mentioned above). However, I never went that far and instead left in some of the features that Ix and later Python had, including:
+
+- Tuples
+- MOP
+- Advice
+- A very hacky form of predicate dispatch
+
+I don't know how far I will go with this.
+
+Some references that I'm using for design include:
+
+- [[https://direct.mit.edu/books/book/2607/The-Art-of-the-Metaobject-Protocol][The Art of the Metaobject Protocol]] by Kiczales, des Rivieres, and Bobrow
+
+
+** Paused projects
+
+| Project    | Status     | Synopsis                                                   | Implementation         | Eventual Goals                |
+|------------+------------+------------------------------------------------------------+------------------------+-------------------------------|
+| 370 ASM    | lost       | An assembler for a subset of IBM 370 assembly              | C                      | [ ] invent time machine       |
+| Baysick    | [[https://github.com/fogus/baysick][released]]   | A embedded BASIC DSL                                       | Scala                  | [ ] make work in Scala.latest |
+| Eleusis    | prototyped | An implementation of microKanren                           | Clojure                | [ ] speed up unification      |
+| Mouse      | lost       | An implementation of the Mouse programming language        | C64 BASIC              | [ ] invent time machine       |
+| Pascal     | lost       | A compiler for a subset of Pascal that targets a simple VM | C                      | [ ] invent time machine       |
+| Russ-Forth | [[https://github.com/fogus/russ-forth][released]]   | A teeny-tiny Forth-esque                                   | Ruby                   | [ ] stdlib                    |
+| Tori-Lisp  | [[https://github.com/fogus/tori-lisp][released]]   | Small functional programming language                      | JavaScript + Tori-Lisp | [ ] in-broswer IDE            |
+| μLithp     | [[https://github.com/fogus/ulithp][released]]   | A micro LISP implementation in 24 lines                    | Ruby                   | [ ] interop                   |
+
+*** 370 ASM
+
+This was an IBM System/370 assembler that I wrote in college. It has been lost to the dustbin of history.
+
+*** Baysick
+
+[[https://github.com/fogus/baysick][Baysick]] is a Scala DSL that allows embedded BASIC-like syntax. It worked on a version of Scala circa 2009 but has not been maintained since.
+
+*** Eleusis
+
+Like everyone in the Clojure community, I also created an embedded microKanren library. Eleusis was slightly different in that I also implemented a REPL that read microKaren forms and executed them.
+
+Some references that I'm using for design include:
+
+- "[[http://webyrd.net/scheme-2013/papers/HemannMuKanren2013.pdf][µKanren: A Minimal Functional Core for Relational Programming]]" by Hemann and Byrd
+- "[[https://erik-j.de/microkanren/][A Gentle Introduction to MicroKanren]]" by Erik Derohanian
+
+*** Mouse
+
+Possibly my first language was a janky implementation of the [[https://en.wikipedia.org/wiki/Mouse_(programming_language)][Mouse programming Language]] on my old Commodore 64. I doubt that I implemented the whole language but the parts that I did were simple because the language can be implemented by simply walking an array of bytes and calling dispatch subroutines for each byte. In all likelihood I only implemented the mathematical operators and possibly variables.
+
+*** Pascal
+
+Also in college I implemented a 1-pass Pascal compiler that targeted an intermediate quadruple language and a little interpreter for that IL.
+
+*** Russ-Forth
+
+I implemented [[https://github.com/fogus/russ-forth][Russ-Forth]] years ago after being nerd-sniped by my old-friend Russ Olsen.
+
+*** Tori-Lisp
+
+[[https://github.com/fogus/tori-lisp][Tori-Lisp]] is a code riff that I created from from [[https://github.com/maryrosecook/littlelisp][Mary Rose Cook's lovely Little Lisp]]. The central conceit was: what would you need in a Lisp that didn't have macros but felt like it did?
+
+*** μLithp
+
+[[https://github.com/fogus/ulithp][μLithp]] was an experiment to see if I could create a Lisp-like interpreter in less than 30 lines of Ruby. It took 24.
+
+
