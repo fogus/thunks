@@ -36,7 +36,7 @@ Some references that I'm using for design include:
 - [[https://www.amazon.com/Object-Oriented-Forth-Dick-Pountain/dp/0125635702?tag=fogus-20][Object-Oriented Forth: Implementation of Data Structures]] by Pountain
 - "[[https://www.youtube.com/watch?v=0PclgBd6_Zs][Programming a 144-computer chip to minimize power]]" by Chuck Moore
 - "[[https://www.bradrodriguez.com/papers/moving1.htm][Moving Forth]]" by Brad Rodriguez
-- "[[https://leonardschuetz.ch/blog/nan-boxing/][Dynamic Typing and NaN Boxing]]" by Loenard Schutz
+- "[[https://leonardschuetz.ch/blog/nan-boxing/][Dynamic Typing and NaN Boxing]]" by Leonard Schütz
 
 Some thoughts and ideas about the direction that I'll take Cribbaj is found in [[https://github.com/fogus/thunks/blob/main/langdev/forth.txt][my thunks repo]].
 
@@ -54,7 +54,7 @@ Some references that I'm using for design include:
 - "vau-calculi and the theory of fexprs" by John Shutt
 - "The Theory of Fexprs is Trivial" by Mitchell Wand
 - [[http://fexpr.blogspot.com/][John Shutt's blog archive]]
-- "[[https://bernsteinbear.com/blog/small-objects/][Small objects and pointer tagging]] by Max Berstein
+- "[[https://bernsteinbear.com/blog/small-objects/][Small objects and pointer tagging]] by Max Bernstein
 
 *** Incal
 
