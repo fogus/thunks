@@ -1,0 +1,74 @@
+-*- mode: org -*-
+
+* Pascal
+
+In his paper[fn:subset-paper] "PASCAL-S: A Subset and its Implementation", Niklaus Wirth provides perhaps the single most compelling reason to study programming language implementation when he stated:
+
+[fn:subset-paper]: <http://pascal.hansotten.com/uploads/pascals/PASCAL-S%20A%20subset%20and%20its%20Implementation%20012.pdf>
+
+#+BEGIN_QUOTE
+Pascal is a language that can be parsed with a lookahead of a single symbol.
+#+END_QUOTE
+
+The implications of this sentence hint at a parsing implementation that can fit into one's mind. In practice, while any programming language implementation is a deep task, the language implemented can reduce complexity. In practice, the right subset of Pascal can be lexically analyzed, parsed, and compiled in a single pass.
+
+** Parts
+
+Building a complete Pascal implementation is best tackled in a staged fashion with data inputs betwixt the strata so that each may be tested in isolation.
+
+*** Lexer Generator
+
+Used to describe the syntax of the Pascal subset that feeds the generation of a lexical analysis engine.
+
+| Mode | Name        | Description                                                                                           |
+|------+-------------+-------------------------------------------------------------------------------------------------------|
+| IN   | Syntax Spec | Describes the FSA that describes the language                                                         |
+| OUT  | FSA         | The jump table used to process each encountered char and how each fits into larger syntactic elements |
+
+*** Lexer
+
+Processes a stream of characters and idenitfies and clasifies the tokens embedded within.
+
+| Mode | Name  | Description                                            |
+|------+-------+--------------------------------------------------------|
+| IN   | FSA   | See above                                              |
+| OUT  | Token | A Pascal token, a end of stream token, or a trap value |
+
+*** Scanner
+
+Uses the lexer to identify tokens and provide a lookahead.
+
+| Mode | Name  | Description                 |
+|------+-------+-----------------------------|
+| IN   | Lexer | See above                   |
+| OUT  | Token | A Pascal token or end token |
+
+*** Parser
+
+A recursive descent parser that nicely mirrors the syntax of the language itself and checks the veracity of the source encountered.
+
+| Mode | Name         | Description                                                       |
+|------+--------------+-------------------------------------------------------------------|
+| IN   | Scanner      | See above                                                         |
+| OUT  | Symbol Table | Holds the program names, data about them, and address information |
+
+**** Symbol Table
+
+*** Compiler
+
+Converts the ongoing parse tree to a sequence of lower-level commands to run on a CPU or VM.
+
+| Mode | Name         | Description                                                      |
+|------+--------------+------------------------------------------------------------------|
+| IN   | Symbol Table | See above                                                        |
+| OUT  | Quadruples   | A pseudo-assembler that describes the operations of the language |
+
+*** Virtual Machine
+
+Runs the lower-level program representation.
+
+| Mode | Name         | Description |
+|------+--------------+-------------|
+| IN   | Quadruples   | See above   |
+| OUT  | Code Effects |             |
+
