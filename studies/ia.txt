@@ -1,0 +1,27 @@
+-*- mode: org -*-
+
+* Intelligence Amplification (IA)
+
+A reading curriculum organized chronologically. IA refers to using information technology to enhance human cognitive capabilities rather than replacing human intelligence with autonomous systems. The intellectual lineage runs from cybernetics through human-computer interaction research and into philosophy of mind. It is often contrasted with AI (Artificial Intelligence)... but does it need to be?
+
+** Brief overview curriculum
+
+Four texts that together span the vision, the theory, the engineering, and the history of IA -- enough to hold a conversation about the field:
+
+- Bush, Vannevar. "As We May Think." /The Atlantic/, July 1945.
+  The founding vision: a machine that extends human memory and association.
+
+- Ashby, W. Ross. "Design for an Intelligence-Amplifier."
+  In Shannon & McCarthy (eds.), /Automata Studies/. Princeton UP, 1956.
+  The paper that names IA and describes how it's possible.
+
+- Engelbart, Douglas C. /Augmenting Human Intellect: A Conceptual Framework/.
+  Stanford Research Institute, 1962.
+  The comprehensive manifesto. Shows how Bush's vision becomes an engineering
+  agenda: tools, methods, and the co-evolution of human and system. The source
+  from which interactive computing, hypertext, and collaborative software all flow.
+
+- Rheingold, Howard. /Tools for Thought/. MIT Press, 2000 [orig. 1985].
+  Narrative history connecting all of the above. Readable, first-person in places,
+  and covers the arc from Babbage through Engelbart and Kay.
+

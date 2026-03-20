@@ -76,5 +76,9 @@
 | 58 | Forth     | FORTH-83 nucleus                | Forth Inc.     |                                                                                                                                                                                                                             | https://www.complang.tuwien.ac.at/forth/fth83std/FORTH83.TXT                                                       |   |
 
 ** KRBAG
+
+*** Core abstractions
+
+
 ** KVVL
 ** References

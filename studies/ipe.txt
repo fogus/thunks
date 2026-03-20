@@ -1,0 +1,34 @@
+-*- mode: org -*-
+
+* Interactive Programming Environments
+
+** LispWorks
+
+| First lauch view |
+|------------------|
+|                  |
+
+The basic LispWorks environment starts with a simple REPL, called "The Listener".
+
+#+CAPTION: LispWorks "beginner" presentation
+#+NAME:   fig:lispworks01
+[[./ipe/lispworks-01.png]]
+
+It's easy enough to get started byt typing into the REPL, but I find this a poor way to start. Instead, I had to understand that File/New opened a code editor attached to the REPL.
+
+#+CAPTION: LispWorks code editor
+#+NAME:   fig:lispworks02
+[[./ipe/lispworks-02.png]]
+
+side to side
+
+#+CAPTION: LispWorks 
+#+NAME:   fig:lispworks03
+[[./ipe/lispworks-03.png]]
+
+???
+
+#+CAPTION: LispWorks 
+#+NAME:   fig:lispworks04
+[[./ipe/lispworks-04.png]]
+
